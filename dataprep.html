@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="../style.css">
+        <title>Maya's Site - DataPrep EDA</title>
+        <style>
+            main section {
+                width: 90%;
+                float: none;
+                padding: 20px;
+                margin-bottom: 20px;
+                border-bottom: 1px solid #c0d4f0;
+            }
+            .dataset-block {
+                background-color: #f4f8ff;
+                border-left: 4px solid #839dc7;
+                padding: 15px;
+                margin: 15px 0;
+                border-radius: 4px;
+            }
+            .raw-clean-grid {
+                display: flex;
+                gap: 20px;
+                flex-wrap: wrap;
+                margin: 15px 0;
+            }
+            .img-box {
+                flex: 1;
+                min-width: 200px;
+                text-align: center;
+            }
+            .img-box img {
+                width: 100%;
+                max-width: 350px;
+                border: 1px solid #aaa;
+                border-radius: 4px;
+            }
+            .img-box p {
+                font-size: 0.85em;
+                color: #555;
+                margin-top: 5px;
+            }
+            .viz-grid {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                margin-top: 15px;
+            }
+            .viz-item {
+                flex: 1;
+                min-width: 280px;
+                text-align: center;
+            }
+            .viz-item img {
+                width: 100%;
+                max-width: 420px;
+                border: 1px solid #aaa;
+                border-radius: 4px;
+            }
+            .viz-item p {
+                font-size: 0.85em;
+                color: #555;
+                margin-top: 5px;
+            }
+            .api-box {
+                background-color: #1e1e1e;
+                color: #d4f4b0;
+                padding: 14px 18px;
+                border-radius: 6px;
+                font-family: monospace;
+                font-size: 0.9em;
+                margin: 10px 0;
+                overflow-x: auto;
+            }
+            table {
+                border-collapse: collapse;
+                width: 100%;
+                margin: 12px 0;
+                font-size: 0.9em;
+            }
+            table th {
+                background-color: #839dc7;
+                color: white;
+                padding: 8px 12px;
+                text-align: left;
+            }
+            table td {
+                border: 1px solid #ccc;
+                padding: 7px 12px;
+            }
+            table tr:nth-child(even) {
+                background-color: #eef3fb;
+            }
+            .tag {
+                display: inline-block;
+                background-color: #839dc7;
+                color: white;
+                padding: 2px 10px;
+                border-radius: 12px;
+                font-size: 0.8em;
+                margin-right: 5px;
+            }
+            a {
+                color: #243d67;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h2>CSCI 5612 Project</h2>
+            <h4>Maya Williams</h4>
+        </header>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="intro.html">Intro</a></li>
+                <li><a href="conclusions.html">Conclusions</a></li>
+                <li><a href="dataprep.html">DataPrep_EDA</a></li>
+                <li class="dropdown">
+                    <a href="#">Methods ▼</a>
+                    <ul class="dropdown-content">
+                        <li><a href="method_pages/clustering.html">Clustering</a></li>
+                        <li><a href="method_pages/arm.html">ARM</a></li>
+                        <li><a href="method_pages/naivebayes.html">NaiveBayes</a></li>
+                        <li><a href="method_pages/dectrees.html">DecTrees</a></li>
+                        <li><a href="method_pages/svms.html">SVMs</a></li>
+                        <li><a href="method_pages/regression.html">Regression</a></li>
+                        <li><a href="method_pages/nn.html">NN</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <h3>DataPrep &amp; Exploratory Data Analysis</h3>
+
+            <!-- ===== OVERVIEW ===== -->
+            <section>
+                <h3>Overview</h3>
+                <p>
+                    The goal of this project is to explore patterns and predictors across three major chronic diseases:
+                    <strong>diabetes</strong>, <strong>cardiovascular disease</strong>, and <strong>chronic kidney disease (CKD)</strong>.
+                    The preliminary goal of data collection was to find prevalent biomarker datasets for those three conditions, in hopes of finding patterns later on.
+                </p>
+                <p>
+                    Data was pulled from a mix of places: public datasets from Kaggle and the UCI Machine Learning Repository,
+                    large-scale national health survey data from NHANES (the CDC's ongoing health and nutrition study), and biomarker
+                    reference data pulled from the MarkerDB API. Each source provided unique information including; clinical records,
+                    self-reported survey answers, lab results, and structured biomarker information.
+                </p>
+                
+            </section>
+
+            <!-- ===== DATA SOURCES ===== -->
+            <section>
+                <h3>Data Sources</h3>
+
+                <!-- DIABETES -->
+                <div class="dataset-block">
+                    <h4> Diabetes</h4>
+                    <span class="tag">CSV</span><span class="tag">XPT (NHANES)</span>
+                    <table>
+                        <tr><th>Dataset</th><th>Source</th><th>Raw Size</th><th>Link</th></tr>
+                        <tr>
+                            <td>Pima Indians Diabetes</td>
+                            <td>Kaggle / UCI</td>
+                            <td>768 rows × 9 cols</td>
+                            <td><a href="https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database" target="_blank">Kaggle</a></td>
+                        </tr>
+                        <tr>
+                            <td>UCI Diabetes (Type 2)</td>
+                            <td>UCI ML Repository</td>
+                            <td>101,766 rows × 50 cols</td>
+                            <td><a href="https://archive.ics.uci.edu/dataset/34/diabetes" target="_blank">UCI</a></td>
+                        </tr>
+                        <tr>
+                            <td>NHANES Glycohemoglobin (P_GHB)</td>
+                            <td>CDC NHANES</td>
+                            <td>~15,000 rows</td>
+                            <td><a href="https://wwwn.cdc.gov/Nchs/Nhanes/2017-2018/P_GHB.XPT" target="_blank">CDC</a></td>
+                        </tr>
+                    </table>
+                    <p><strong>Raw data files:</strong>
+                        <a href="../ProjectData/diabetesData/diabetes.csv">diabetes.csv</a> |
+                        <a href="../ProjectData/diabetesData/diabetesUCI.csv">diabetesUCI.csv</a> |
+                        <a href="../ProjectData/diabetesData/P_GHB.xpt">P_GHB.xpt</a>
+                    </p>
+                    <p><strong>Cleaned data:</strong>
+                        <a href="cleaned_data_files/diabetes_cleaned.csv">diabetes_cleaned.csv</a> |
+                        <a href="cleaned_data_files/nhanes_diabetes_cleaned.csv">nhanes_diabetes_cleaned.csv</a>
+                    </p>
+                </div>
+
+                <!-- CARDIOVASCULAR -->
+                <div class="dataset-block">
+                    <h4> Cardiovascular Disease</h4>
+                    <span class="tag">CSV</span><span class="tag">DATA</span>
+                    <table>
+                        <tr><th>Dataset</th><th>Source</th><th>Raw Size</th><th>Link</th></tr>
+                        <tr>
+                            <td>Cardiovascular Disease Dataset</td>
+                            <td>Kaggle</td>
+                            <td>70,000 rows × 13 cols</td>
+                            <td><a href="https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset" target="_blank">Kaggle</a></td>
+                        </tr>
+                        <tr>
+                            <td>Framingham Heart Study</td>
+                            <td>Kaggle</td>
+                            <td>4,240 rows × 16 cols</td>
+                            <td><a href="https://www.kaggle.com/datasets/amanajmera1/framingham-heart-study-dataset" target="_blank">Kaggle</a></td>
+                        </tr>
+                        <tr>
+                            <td>Cleveland Heart Disease</td>
+                            <td>UCI ML Repository</td>
+                            <td>303 rows × 14 cols</td>
+                            <td><a href="https://archive.ics.uci.edu/dataset/29/heart+disease" target="_blank">UCI</a></td>
+                        </tr>
+                    </table>
+                    <p><strong>Raw data files:</strong>
+                        <a href="../ProjectData/cardiovascularData/cardio_train.csv">cardio_train.csv</a> |
+                        <a href="../ProjectData/cardiovascularData/framingham.csv">framingham.csv</a> |
+                        <a href="../ProjectData/cardiovascularData/processed.cleveland.data">processed.cleveland.data</a>
+                    </p>
+                    <p><strong>Cleaned data:</strong>
+                       <a href="cleaned_data_files/cardio_train_cleaned.csv">cardio_train_cleaned.csv</a> |
+                        <a href="cleaned_data_files/framingham_cleaned.csv">framingham_cleaned.csv</a> |
+                        <a href="cleaned_data_files/cleveland_cleaned.csv">cleveland_cleaned.csv</a>
+                    </p>
+                </div>
+
+                <!-- KIDNEY -->
+                <div class="dataset-block">
+                    <h4> Chronic Kidney Disease</h4>
+                    <span class="tag">CSV</span><span class="tag">XPT (NHANES)</span>
+                    <table>
+                        <tr><th>Dataset</th><th>Source</th><th>Raw Size</th><th>Link</th></tr>
+                        <tr>
+                            <td>Chronic Kidney Disease Dataset</td>
+                            <td>UCI ML Repository</td>
+                            <td>400 rows × 25 cols</td>
+                            <td><a href="https://archive.ics.uci.edu/dataset/336/chronic+kidney+disease" target="_blank">UCI</a></td>
+                        </tr>
+                        <tr>
+                            <td>NHANES Standard Biochemistry (P_BIOPRO)</td>
+                            <td>CDC NHANES</td>
+                            <td>10,409 rows × 41 cols</td>
+                            <td><a href="https://wwwn.cdc.gov/Nchs/Nhanes/2017-2018/P_BIOPRO.XPT" target="_blank">CDC</a></td>
+                        </tr>
+                        <tr>
+                            <td>NHANES Albumin/Creatinine (P_ALB_CR)</td>
+                            <td>CDC NHANES</td>
+                            <td>13,027 rows × 8 cols</td>
+                            <td><a href="https://wwwn.cdc.gov/Nchs/Nhanes/2017-2018/P_ALB_CR.XPT" target="_blank">CDC</a></td>
+                        </tr>
+                    </table>
+                    <p><strong>Raw data files:</strong>
+                        <a href="../ProjectData/kidneyData/kidney_disease.csv">kidney_disease.csv</a> |
+                        <a href="../ProjectData/kidneyData/P_BIOPRO.xpt">P_BIOPRO.xpt</a> |
+                        <a href="../ProjectData/kidneyData/P_ALB_CR.xpt">P_ALB_CR.xpt</a>
+                    </p>
+                    <p><strong>Cleaned data:</strong>
+                        <a href="cleaned_data_files/kidney_cleaned.csv">kidney_cleaned.csv</a> |
+                        <a href="cleaned_data_files/nhanes_kidney_cleaned.csv">nhanes_kidney_cleaned.csv</a>
+                    </p>
+                </div>
+
+                <!-- API -->
+                <div class="dataset-block">
+                    <h4> MarkerDB API</h4>
+                    <span class="tag">REST API</span><span class="tag">JSON</span>
+                    <p>
+                        MarkerDB is a database of known human biomarkers. The REST API was used to pull
+                        chemical biomarkers for diabetes, kidney disease, and cardiovascular disease.
+                    </p>
+                    <p><strong>Base Endpoint:</strong></p>
+                    <div class="api-box">http://markerdb.ca/api/v1/generalapi/generalrequest</div>
+                    <p><strong>GET Request Example:</strong></p>
+                    <div class="api-box">GET http://markerdb.ca/api/v1/generalapi/generalrequest?api_key=YOUR_KEY&amp;category=Diagnostic&amp;biomarker_type=Chemical&amp;page=1</div>
+                    <p><strong>Response Format:</strong> JSON — returns biomarker names, IDs, and associated conditions.</p>
+                    <p><strong>Cleaned output:</strong>
+                        <a href="cleaned_data_files/cleaned_markerdb_api.csv">cleaned_markerdb_api.csv</a>
+                    </p>
+                </div>
+            </section>
+
+            <!-- ===== CODE ===== -->
+            <section>
+                <h3>Code</h3>
+                <p>All cleaning and exploration was done in Jupyter notebooks. Links to each notebook below:</p>
+                <table>
+                    <tr><th>Notebook</th><th>Description</th></tr>
+                    <tr>
+                        <td><a href="notebooks/diabetes_cleaned (1).html">
+                            diabetes_cleaned.ipynb
+                            </a></td>                        
+                        <td>Loads and cleans Pima, UCI, and NHANES diabetes data. Handles missing values, creates binary diabetes label.</td>
+                    </tr>
+                    <tr>
+                        <td><a href="notebooks/cardiovascular_cleaned (1).html">cardiovascular_cleaned.ipynb</a></td>
+                        <td>Loads Cardio, Framingham, and Cleveland datasets. Converts age from days to years, removes physiologically impossible outliers.</td>
+                    </tr>
+                    <tr>
+                        <td><a href="notebooks/kidney_cleaned (1).html">kidney_cleaned.ipynb</a></td>
+                        <td>Loads UCI kidney and NHANES renal data. Applies 70% completeness threshold, imputes with median/mode.</td>
+                    </tr>
+                    <tr>
+                        <td><a href="notebooks/cdc_api_data_cleaning (8).html">cdc_api_data_cleaning.ipynb</a></td>
+                        <td>Makes GET request to MarkerDB API, parses JSON response, filters for 3 target conditions, exports clean CSV.</td>
+                    </tr>
+                    <tr>
+                        <td><a href="notebooks/DataPrep_EDA_Visualizations-Copy1.html">DataPrep_EDA_Visualizations.ipynb</a></td>
+                        <td>Generates all visualizations comparing raw vs cleaned data across all datasets.</td>
+                    </tr>
+                </table>
+            </section>
+
+            <!-- ===== DATA CLEANING ===== -->
+            <section>
+                <h3>Data Cleaning Summary</h3>
+                <p>
+                    Every dataset came in with its own set of problems, so there wasn't a one-size-fits-all fix —
+                    each one needed its own approach. Here's a plain-English walkthrough of what I found and what I did about it.
+                </p>
+
+                <div class="dataset-block">
+                    <h4> Diabetes</h4>
+                    <p>
+                        The Pima dataset looked clean at first, no missing values flagged, but some columns like <em>Glucose</em>, <em>BloodPressure</em>, and <em>BMI</em> had biologically impossible values (zero).
+                        A blood pressure of zero means a missing value was encoded as 0, not that the patient was dead.
+                        Zeros were replaced with the column median so the distributions stayed realistic.
+                        The NHANES lab data came in as separate XPT (SAS) files that was merged together on a shared patient ID.
+                    </p>
+                    <table>
+                        <tr><th>Step</th><th>What I did</th></tr>
+                        <tr><td>Zero replacement</td><td>Replaced 0s in Glucose, BP, BMI, SkinThickness, Insulin with column median</td></tr>
+                        <tr><td>NHANES merge</td><td>Joined P_GHB, P_GLU, P_HDL, P_TRIGLY on SEQN (patient ID)</td></tr>
+                        <tr><td>Label creation</td><td>Used HbA1c ≥ 6.5 as diabetes threshold for NHANES label</td></tr>
+                        <tr><td>Duplicates</td><td>Removed duplicate rows after merge</td></tr>
+                    </table>
+                </div>
+
+                <div class="dataset-block">
+                    <h4> Cardiovascular Disease</h4>
+                    <p>
+                        The big cardiovascular dataset (70,000 patients) had age stored in days instead of years, which meant
+                        everyone appeared to be between 10,000 and 25,000 years old until converted. It also had blood
+                        pressure readings that were clearly entered wrong (negative values, systolic below diastolic, readings
+                        over 400 mmHg). Physiological cutoffs were applied to remove those rows rather than impute them, since
+                        bad BP values can not really be estimated reliably. After that, about 1,300 rows were dropped, which is about 2%
+                        of the dataset, so no real information was lost. The Framingham and Cleveland datasets were much smaller
+                        and cleaner, mainly needing median imputation for scattered missing values.
+                    </p>
+                    <table>
+                        <tr><th>Step</th><th>What I did</th></tr>
+                        <tr><td>Age conversion</td><td>Converted age from days → years (÷ 365.25)</td></tr>
+                        <tr><td>BP outlier removal</td><td>Kept systolic 80–250 mmHg, diastolic 40–150 mmHg</td></tr>
+                        <tr><td>Height/weight</td><td>Removed implausible values (height &lt;100cm or &gt;220cm, weight &lt;30kg or &gt;200kg)</td></tr>
+                        <tr><td>Framingham imputation</td><td>Filled missing numeric values with column median</td></tr>
+                        <tr><td>Cleveland formatting</td><td>Added column headers (raw file had no header row)</td></tr>
+                    </table>
+                </div>
+
+                <div class="dataset-block">
+                    <h4> Chronic Kidney Disease</h4>
+                    <p>
+                        The UCI kidney dataset was initially the messiest dataset. Out of 25 features, several had
+                        over 100 missing values in a 400-row dataset. Any row that was missing more than 30% of its values was dropped, then median imputation was used
+                        for remaining numeric gaps and mode imputation for categorical ones. Some columns like red
+                        blood cells and white cell count were stored as text ("normal" / "abnormal") and stayed that
+                        way since they're categorical. The NHANES kidney files were merged from three separate sources
+                        (serum chemistry, urine albumin, and kidney questionnaire) and a CKD label was derived from
+                        a standard albumin-to-creatinine ratio.
+                    </p>
+                    <table>
+                        <tr><th>Step</th><th>What I did</th></tr>
+                        <tr><td>Row filtering</td><td>Dropped rows with &lt;70% complete data</td></tr>
+                        <tr><td>Numeric imputation</td><td>Median fill for: age, BP, glucose, BUN, creatinine, hemoglobin</td></tr>
+                        <tr><td>Categorical imputation</td><td>Mode fill for: RBC, pus cells, hypertension, diabetes history</td></tr>
+                        <tr><td>Label creation</td><td>Mapped "ckd" → 1, "notckd" → 0 for target variable</td></tr>
+                        <tr><td>NHANES label</td><td>Albumin/creatinine ratio ≥ 30 → CKD positive</td></tr>
+                    </table>
+                </div>
+
+                <div class="dataset-block">
+                    <h4> MarkerDB API</h4>
+                    <p>
+                        The API data cleaning was mainly focused on
+                        filtering down to the relevant conditions. The API returns biomarkers across many disease categories, so the full list was pulled and then conditions were filtered to keep only the three categories of conditions: Diabetes, Cardiovascular, and Kidney. 
+                        Duplicates were dropped along with entries with a missing biomarker name.
+                    </p>
+                    <table>
+                        <tr><th>Step</th><th>What I did</th></tr>
+                        <tr><td>HTTP GET request</td><td>Fetched Diagnostic / Chemical biomarkers via REST API</td></tr>
+                        <tr><td>Condition filter</td><td>Kept only rows for the 3 target disease conditions</td></tr>
+                        <tr><td>Deduplication</td><td>Removed duplicate (biomarker_name, condition) pairs</td></tr>
+                        <tr><td>Null removal</td><td>Dropped rows with missing biomarker names</td></tr>
+                    </table>
+                </div>
+            </section>
+
+            <!-- ===== RAW VS CLEAN ===== -->
+            <section>
+                <h3>Raw vs Cleaned Data Samples</h3>
+                <h4> Kidney data</h4>
+                <div class="raw-clean-grid">
+                    <div class="img-box">
+                        <img src="images/data_cleaning/raw_kidney.png" alt="Raw kidney data sample">
+                        <p>Raw Kidney Data</p>
+                    </div>
+                    <div class="img-box">
+                        <img src="images/data_cleaning/clean_kidney.png" alt="Clean kidney data sample">
+                        <p>Cleaned Kidney Data</p>
+                    </div>
+                </div>
+
+                <h4> MarkerDB API </h4>
+                <div class="raw-clean-grid">
+                    <div class="img-box">
+                        <img src="images/data_cleaning/raw_api.png" alt="Raw MarkerDB API data sample">
+                        <p>Raw API Data</p>
+                    </div>
+                    <div class="img-box">
+                        <img src="images/data_cleaning/cleaned_api.png" alt="Clean MarkerDB API data sample">
+                        <p>Cleaned API Data</p>
+                    </div>
+                </div>
+
+                <h4> Heart & Diabetes</h4>
+                <div class="raw-clean-grid">
+                    <div class="img-box">
+                        <img src="images/data_cleaning/clean_cleveland.png" alt="Raw kidney data sample">
+                        <p>Cleaned Cleveland Cardiovascular Data</p>
+                        <p>*While sex is not always an important disease indicator, it does affect how the condition develops, which is why it was kept.</p>
+                    </div>
+                    <div class="img-box">
+                        <img src="images/data_cleaning/cleaned_diabetes.png" alt="Clean kidney data sample">
+                        <p>Cleaned Diabetes Data</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== VISUALIZATIONS ===== -->
+            <section>
+                <h3>Visualizations</h3>
+        
+
+                <!-- Row 1 -->
+                <h4>Biomarker distributions</h4>
+                <div class="viz-grid">
+                    <div class="viz-item">
+                        <img src="images/data_cleaning/api_biomark_dist.png" alt="Diabetes target distribution">
+                        <p><strong>Fig 1.</strong> From API data, the number of biomarkers in relation to (heart, kidney, diabetic) conditions</p>
+                    </div>
+                    <div class="viz-item">
+                        <img src="images/data_cleaning/daiebets_bio_dist.png" alt="Cardiovascular data size and CVD cases">
+                        <p><strong>Fig 2.</strong>The distribution of major biomarkers associated with diabetes</p>
+                    </div>
+                </div>
+
+                <!-- Row 2 -->
+                <div class="viz-grid">
+                    <div class="viz-item">
+                        <img src="images/data_cleaning/kidney_biomark_dist.png" alt="Kidney disease missing values and CKD cases">
+                        <p><strong>Fig 3.</strong> Major biomarkers distribution associated with CKD</p>
+                    </div>
+                    <div class="viz-item">
+                        <img src="images/data_cleaning/dist_shift_zeros_diabetes.png" alt="MarkerDB API biomarkers per condition">
+                        <p><strong>Fig 4.</strong> After removing null rows, the distribution of biomarkers is compared to with/without imputing the median.</p>
+                    </div>
+                </div>
+
+                <h4>Cardiovascular Disease Visualizations</h4>
+                <!-- Row 3 — placeholders for remaining visualizations -->
+                <div class="viz-grid">
+                    <div class="viz-item">
+                        <img src="images/data_cleaning/cardio_boxplot.png" alt="Glucose distribution">
+                        <p><strong>Fig 5.</strong>A boxplot comparing outliers from the general Cardiovcular Disease dataset, before and after cleaning.</p>
+                    </div>
+                    <div class="viz-item">
+                        <img src="images/data_cleaning/weight_age_cvd.png" alt="Blood pressure distribution">
+                        <p><strong>Fig 6.</strong>Plot showing relationship between age and weight and examining these with and without CVD. The values seen are generally expected, as increase in age and/or weight increases likelihood of CVD. </p>
+                    </div>
+                </div>
+
+                
+            </section>
+
+        </main>
+
+        <footer>
+            <p>CSCI 5612 — Maya Williams &nbsp;|&nbsp; Data sourced from Kaggle, UCI ML Repository, CDC NHANES, and MarkerDB API</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,1120 @@
+biomarker_name,mdbid,condition_id,condition_name
+"1,3-Diaminopropane",MDB00000002,1,Normal
+"1,3-Diaminopropane",MDB00000002,207,Leukemia
+1-Methylhistidine,MDB00000001,1,Normal
+1-Methylhistidine,MDB00000001,33,Alzheimer's Disease
+1-Methylhistidine,MDB00000001,34,Pregnancy
+1-Methylhistidine,MDB00000001,83,Chronic Kidney Disease
+1-Methylhistidine,MDB00000001,203,Kidney Disease
+1-Methylhistidine,MDB00000001,251,Obesity
+1-Methylhistidine,MDB00000001,5988,Preeclampsia/Eclampsia
+Tetrahydrodeoxycortisol,MDB00000477,2,11 Beta Hydroxylase Deficiency
+Androstenedione,MDB00000026,2,11 Beta Hydroxylase Deficiency
+Androstenedione,MDB00000026,4,Congenital Adrenal Hyperplasia
+Androstenedione,MDB00000026,269,Polycystic Ovary Syndrome
+Androstenedione,MDB00000026,295,Rheumatoid Arthritis
+Androstenedione,MDB00000026,1085,Lipoid Congenital Adrenal Hyperplasia
+Androstenedione,MDB00000026,4299,"Congenital Adrenal Insufficiency with 46,XY Sex Reversal"
+Fructosamine,MDB00000368,2,11 Beta Hydroxylase Deficiency
+Fructosamine,MDB00000368,83,Chronic Kidney Disease
+Fructosamine,MDB00000368,85,Cirrhosis
+Fructosamine,MDB00000368,115,Diabetes Mellitus Type 2
+Fructosamine,MDB00000368,203,Kidney Disease
+DHEA sulfate,MDB00000294,2,11 Beta Hydroxylase Deficiency
+DHEA sulfate,MDB00000294,33,Alzheimer's Disease
+DHEA sulfate,MDB00000294,269,Polycystic Ovary Syndrome
+DHEA sulfate,MDB00000294,2005,X-Linked Ichthyosis
+Testosterone,MDB00000113,2,11 Beta Hydroxylase Deficiency
+Testosterone,MDB00000113,3,21 Hydroxylase Deficiency
+Testosterone,MDB00000113,66,Cadmium Exposure
+Testosterone,MDB00000113,2005,X-Linked Ichthyosis
+Testosterone,MDB00000113,4185,Aromatase Deficiency
+Cortexolone,MDB00013414,2,11 Beta Hydroxylase Deficiency
+Pregnanetriol,MDB00029963,2,11 Beta Hydroxylase Deficiency
+D-Glucose,MDB00000057,3,21 Hydroxylase Deficiency
+D-Glucose,MDB00000057,11,Acute Myelogenous Leukemia
+D-Glucose,MDB00000057,115,Diabetes Mellitus Type 2
+D-Glucose,MDB00000057,290,Fanconi Syndrome
+D-Glucose,MDB00000057,303,Sepsis
+D-Glucose,MDB00000057,1297,"Fructose 1,6 Bisphosphatase Deficiency"
+D-Glucose,MDB00000057,1506,Carnitine Palmitoyltransferase I Deficiency
+D-Glucose,MDB00000057,1523,Familial Hyperinsulinemic Hypoglycemia
+D-Glucose,MDB00000057,2270,Acute Myeloid Leukemia
+D-Glucose,MDB00000057,4281,3 Hydroxyacyl Co A Dehydrogenase Deficiency
+D-Glucose,MDB00000057,4299,"Congenital Adrenal Insufficiency with 46,XY Sex Reversal"
+D-Glucose,MDB00000057,5904,Lipodystrophy
+Potassium,MDB00000194,3,21 Hydroxylase Deficiency
+Potassium,MDB00000194,930,Type I Autosonal Dominant Pseudyhopoaldosteronism
+Potassium,MDB00000194,1085,Lipoid Congenital Adrenal Hyperplasia
+Potassium,MDB00000194,2353,Type 4A Bartter Syndrome
+Potassium,MDB00000194,4011,Type 4B Bartter Syndrome
+Potassium,MDB00000194,4299,"Congenital Adrenal Insufficiency with 46,XY Sex Reversal"
+Dehydroepiandrosterone,MDB00000041,3,21 Hydroxylase Deficiency
+Dehydroepiandrosterone,MDB00000041,1085,Lipoid Congenital Adrenal Hyperplasia
+Dehydroepiandrosterone,MDB00000041,1086,Antley Bixler Syndrome With Genital Anomalies And Disordered Steroidogenesis
+Creatinine,MDB00000188,3,21 Hydroxylase Deficiency
+Creatinine,MDB00000188,34,Pregnancy
+Creatinine,MDB00000188,67,Canavan Disease
+Creatinine,MDB00000188,83,Chronic Kidney Disease
+Creatinine,MDB00000188,84,Chronic Renal Failure
+Creatinine,MDB00000188,206,Lesch Nyhan Syndrome
+Creatinine,MDB00000188,303,Sepsis
+Creatinine,MDB00000188,330,Uremia
+Creatinine,MDB00000188,557,Lewy Body Dementia
+Creatinine,MDB00000188,930,Type I Autosonal Dominant Pseudyhopoaldosteronism
+Creatinine,MDB00000188,1157,Brown Vialetto Van Laere Syndrome
+Creatinine,MDB00000188,1377,Antenatal Bartter Syndrome Type 2
+Creatinine,MDB00000188,2353,Type 4A Bartter Syndrome
+Hydrogen carbonate,MDB00013430,3,21 Hydroxylase Deficiency
+Hydrogen carbonate,MDB00013430,290,Fanconi Syndrome
+Hydrogen carbonate,MDB00013430,930,Type I Autosonal Dominant Pseudyhopoaldosteronism
+Hydrogen carbonate,MDB00013430,1404,Succinyl Co A:3 Oxoacid Co A Transferase Deficiency
+Hydrogen carbonate,MDB00013430,1506,Carnitine Palmitoyltransferase I Deficiency
+Hydrogen carbonate,MDB00013430,3049,Pyruvate Dehydrogenase Phosphatase Deficiency
+17-Hydroxyprogesterone,MDB00000154,4,Congenital Adrenal Hyperplasia
+17-Hydroxyprogesterone,MDB00000154,267,Phenylketonuria
+17-Hydroxyprogesterone,MDB00000154,1085,Lipoid Congenital Adrenal Hyperplasia
+17-Hydroxyprogesterone,MDB00000154,1086,Antley Bixler Syndrome With Genital Anomalies And Disordered Steroidogenesis
+3-Hydroxyisovaleric acid,MDB00013435,5,3 Hydroxy 3 Methylglutaryl Co A Lyase Deficiency
+3-Hydroxyisovaleric acid,MDB00013435,58,Biotinidase Deficiency
+3-Hydroxyisovaleric acid,MDB00013435,115,Diabetes Mellitus Type 2
+3-Hydroxyisovaleric acid,MDB00013435,212,Lung Cancer
+3-Hydroxyisovaleric acid,MDB00013435,1451,3-Methylglutaconic Aciduria Type I
+3-Hydroxyisovaleric acid,MDB00013435,5988,Preeclampsia/Eclampsia
+Methylglutaric acid,MDB00013434,5,3 Hydroxy 3 Methylglutaryl Co A Lyase Deficiency
+Methylglutaric acid,MDB00013434,3317,Type V 3-Methylglutaconic Aciduria
+3-Methylcrotonylglycine,MDB00013425,5,3 Hydroxy 3 Methylglutaryl Co A Lyase Deficiency
+3-Methylcrotonylglycine,MDB00013425,58,Biotinidase Deficiency
+3-Methylcrotonylglycine,MDB00013425,281,Propionic Acidemia
+3-Methylglutaconic acid,MDB00000182,5,3 Hydroxy 3 Methylglutaryl Co A Lyase Deficiency
+3-Methylglutaconic acid,MDB00000182,267,Phenylketonuria
+3-Methylglutaconic acid,MDB00000182,1451,3-Methylglutaconic Aciduria Type I
+3-Methylglutaconic acid,MDB00000182,3317,Type V 3-Methylglutaconic Aciduria
+3-Methylglutaconic acid,MDB00000182,5823,Eosinophilic Esophagitis
+Ethylmalonic acid,MDB00000204,5,3 Hydroxy 3 Methylglutaryl Co A Lyase Deficiency
+Ethylmalonic acid,MDB00000204,18,Medium Chain Acyl Co A Dehydrogenase Deficiency
+Ethylmalonic acid,MDB00000204,219,Malonyl Co A Decarboxylase Deficiency
+Ethylmalonic acid,MDB00000204,2345,Ethylmaonic Encephalopathy
+Ethylmalonic acid,MDB00000204,3518,Isobutyryl Co A Dehydrogenase Deficiency
+Ethylmalonic acid,MDB00000204,5823,Eosinophilic Esophagitis
+(R)-3-Hydroxybutyric acid,MDB00000005,5,3 Hydroxy 3 Methylglutaryl Co A Lyase Deficiency
+(R)-3-Hydroxybutyric acid,MDB00000005,16,Long Chain 3 Hydroxyacyl Co A Dehydrogenase Deficiency
+(R)-3-Hydroxybutyric acid,MDB00000005,18,Medium Chain Acyl Co A Dehydrogenase Deficiency
+(R)-3-Hydroxybutyric acid,MDB00000005,34,Pregnancy
+(R)-3-Hydroxybutyric acid,MDB00000005,42,Anoxia
+(R)-3-Hydroxybutyric acid,MDB00000005,115,Diabetes Mellitus Type 2
+(R)-3-Hydroxybutyric acid,MDB00000005,133,Schizophrenia
+(R)-3-Hydroxybutyric acid,MDB00000005,138,Fumarase Deficiency
+(R)-3-Hydroxybutyric acid,MDB00000005,222,Meningitis
+(R)-3-Hydroxybutyric acid,MDB00000005,251,Obesity
+(R)-3-Hydroxybutyric acid,MDB00000005,1506,Carnitine Palmitoyltransferase I Deficiency
+(R)-3-Hydroxybutyric acid,MDB00000005,1624,Pyruvate Carboxylase Deficiency
+(R)-3-Hydroxybutyric acid,MDB00000005,3049,Pyruvate Dehydrogenase Phosphatase Deficiency
+(R)-3-Hydroxybutyric acid,MDB00000005,4281,3 Hydroxyacyl Co A Dehydrogenase Deficiency
+(R)-3-Hydroxybutyric acid,MDB00000005,5988,Preeclampsia/Eclampsia
+Acetoacetic acid,MDB00000030,5,3 Hydroxy 3 Methylglutaryl Co A Lyase Deficiency
+Acetoacetic acid,MDB00000030,34,Pregnancy
+Acetoacetic acid,MDB00000030,115,Diabetes Mellitus Type 2
+Acetoacetic acid,MDB00000030,147,Glucose Transporter Type 1 Deficiency Syndrome
+Acetoacetic acid,MDB00000030,201,Ketosis
+Acetoacetic acid,MDB00000030,222,Meningitis
+Acetoacetic acid,MDB00000030,267,Phenylketonuria
+Acetoacetic acid,MDB00000030,1404,Succinyl Co A:3 Oxoacid Co A Transferase Deficiency
+Acetoacetic acid,MDB00000030,5988,Preeclampsia/Eclampsia
+L-Carnitine,MDB00000031,5,3 Hydroxy 3 Methylglutaryl Co A Lyase Deficiency
+L-Carnitine,MDB00000031,34,Pregnancy
+L-Carnitine,MDB00000031,251,Obesity
+L-Carnitine,MDB00000031,252,Oculocerebrorenal Syndrome
+L-Carnitine,MDB00000031,1506,Carnitine Palmitoyltransferase I Deficiency
+L-Carnitine,MDB00000031,5823,Eosinophilic Esophagitis
+Cortisol,MDB00000032,5,3 Hydroxy 3 Methylglutaryl Co A Lyase Deficiency
+Cortisol,MDB00000032,51,Benign Gynecological Diseases
+Cortisol,MDB00000032,139,Functional Hypothalamic Amenorrhea
+Cortisol,MDB00000032,295,Rheumatoid Arthritis
+Cortisol,MDB00000032,314,Stress
+Cortisol,MDB00000032,1080,Isolated ACTH Deficiency
+Cortisol,MDB00000032,1085,Lipoid Congenital Adrenal Hyperplasia
+Cortisol,MDB00000032,1086,Antley Bixler Syndrome With Genital Anomalies And Disordered Steroidogenesis
+Cortisol,MDB00000032,1088,Congenital Adrenal Hyperplaia due to 17-alpha-Hydroxylase Deficiency
+Cortisol,MDB00000032,1098,Corticosterone Methyloxidase Type I Deficiency
+Cortisol,MDB00000032,1377,Antenatal Bartter Syndrome Type 2
+Cortisol,MDB00000032,2185,Proprotein Convertase 1/3 Deficiency
+Cortisol,MDB00000032,4185,Aromatase Deficiency
+Cortisol,MDB00000032,4299,"Congenital Adrenal Insufficiency with 46,XY Sex Reversal"
+Cortisol,MDB00000032,4386,Apparent Mineralocorticoid Excess
+Cortisol,MDB00000032,5843,Glucocorticoid Resistance
+3-Hydroxyisovalerylcarnitine,MDB00029838,5,3 Hydroxy 3 Methylglutaryl Co A Lyase Deficiency
+3-Methylglutarylcarnitine,MDB00029840,5,3 Hydroxy 3 Methylglutaryl Co A Lyase Deficiency
+4-Hydroxybutyric acid,MDB00000230,7,Succinic Semialdehyde Dehydrogenase Deficiency
+4-Hydroxybutyric acid,MDB00000230,29,Aldehyde Dehydrogenase Deficiency
+4-Hydroxybutyric acid,MDB00000230,149,Glutaric Acidemia Type 2
+Alpha-Tocopherol,MDB00000354,8,Abetalipoproteinemia
+Alpha-Tocopherol,MDB00000354,1723,Familial Isolated Deficiency of Vitamin E
+Trihexosylceramide (d18:1/12:0),MDB00000458,8,Abetalipoproteinemia
+Trihexosylceramide (d18:1/12:0),MDB00000458,183,Hypobetalipoproteinemia
+Enkephalin L,MDB00000296,13,Acute Liver Disease
+L-Cystine,MDB00000092,15,Acute Seizures
+L-Cystine,MDB00000092,33,Alzheimer's Disease
+L-Cystine,MDB00000092,104,Cystinuria
+L-Cystine,MDB00000092,126,Epilepsy
+L-Cystine,MDB00000092,1466,Molybdenum Cofactor Deficiency
+5Z-Tetradecenoic acid,MDB00000181,16,Long Chain 3 Hydroxyacyl Co A Dehydrogenase Deficiency
+3-Hydroxysebacic acid,MDB00000150,18,Medium Chain Acyl Co A Dehydrogenase Deficiency
+Caproic acid,MDB00000184,18,Medium Chain Acyl Co A Dehydrogenase Deficiency
+Caproic acid,MDB00000184,73,Celiac Disease
+Caprylic acid,MDB00000171,18,Medium Chain Acyl Co A Dehydrogenase Deficiency
+cis-4-Decenedioic acid,MDB00000197,18,Medium Chain Acyl Co A Dehydrogenase Deficiency
+Hexanoylglycine,MDB00000227,18,Medium Chain Acyl Co A Dehydrogenase Deficiency
+Hexanoylglycine,MDB00000227,2345,Ethylmaonic Encephalopathy
+Sebacic acid,MDB00000254,18,Medium Chain Acyl Co A Dehydrogenase Deficiency
+Sebacic acid,MDB00000254,1167,Carnitine Acylcarnitine Translocase Deficiency
+Suberic acid,MDB00000276,18,Medium Chain Acyl Co A Dehydrogenase Deficiency
+Suberic acid,MDB00000276,219,Malonyl Co A Decarboxylase Deficiency
+Suberic acid,MDB00000276,1167,Carnitine Acylcarnitine Translocase Deficiency
+Adipic acid,MDB00000162,18,Medium Chain Acyl Co A Dehydrogenase Deficiency
+Adipic acid,MDB00000162,219,Malonyl Co A Decarboxylase Deficiency
+Adipic acid,MDB00000162,1167,Carnitine Acylcarnitine Translocase Deficiency
+5-Hydroxyhexanoic acid,MDB00029984,18,Medium Chain Acyl Co A Dehydrogenase Deficiency
+Capryloylglycine,MDB00029861,18,Medium Chain Acyl Co A Dehydrogenase Deficiency
+cis-4-Octenedioic acid,MDB00030010,18,Medium Chain Acyl Co A Dehydrogenase Deficiency
+cis-5-Decenedioic acid,MDB00029863,18,Medium Chain Acyl Co A Dehydrogenase Deficiency
+Phenylpropionylglycine,MDB00029990,18,Medium Chain Acyl Co A Dehydrogenase Deficiency
+Phenylpropionylglycine,MDB00029990,281,Propionic Acidemia
+Suberylglycine,MDB00029991,18,Medium Chain Acyl Co A Dehydrogenase Deficiency
+trans-2-Hexenedioic acid,MDB00029972,18,Medium Chain Acyl Co A Dehydrogenase Deficiency
+trans-3-Octenedioic acid,MDB00029973,18,Medium Chain Acyl Co A Dehydrogenase Deficiency
+Isobutyryl-L-carnitine,MDB00000241,20,Short Chain Acyl Coa Dehydrogenase Deficiency
+Epinephrine,MDB00000035,21,Addison's Disease
+1-Methyladenine,MDB00000843,22,Adenosine Deaminase Deficiency
+Deoxyadenosine,MDB00000053,22,Adenosine Deaminase Deficiency
+Deoxyadenosine,MDB00000053,23,Adenylosuccinate Lyase Deficiency
+Deoxyadenosine,MDB00000053,5823,Eosinophilic Esophagitis
+Deoxyadenosine triphosphate,MDB00029867,22,Adenosine Deaminase Deficiency
+Adenosine,MDB00000024,23,Adenylosuccinate Lyase Deficiency
+Adenosine,MDB00000024,303,Sepsis
+Succinyladenosine,MDB00000282,23,Adenylosuccinate Lyase Deficiency
+Succinyladenosine,MDB00000282,138,Fumarase Deficiency
+SAICAR,MDB00000256,23,Adenylosuccinate Lyase Deficiency
+SAICAR,MDB00000256,138,Fumarase Deficiency
+Pipecolic acid,MDB00000036,24,Adrenoleukodystrophy
+Pipecolic acid,MDB00000036,26,Refsum Disease
+Pipecolic acid,MDB00000036,37,Anemia
+Pipecolic acid,MDB00000036,222,Meningitis
+Pipecolic acid,MDB00000036,266,Peroxisomal Diogenesis Disorder
+Pipecolic acid,MDB00000036,1621,Pyridoxine Dependent Epilepsy
+Pipecolic acid,MDB00000036,1629,Infantile Refsum Disease
+Pipecolic acid,MDB00000036,6070,Zellweger Syndrome
+Hexacosanoic acid,MDB00000391,24,Adrenoleukodystrophy
+Hexacosanoic acid,MDB00000391,25,Adrenomyeloneuropathy
+Hexacosanoic acid,MDB00000391,1577,D Bifunctional Protein Deficiency
+Hexacosanoic acid,MDB00000391,6005,Rhizomelic Chondrodysplasia Punctata
+Hexacosanoic acid,MDB00000391,6070,Zellweger Syndrome
+Methylsuccinic acid,MDB00000343,26,Refsum Disease
+Methylsuccinic acid,MDB00000343,199,Isovaleric Acidemia
+Methylsuccinic acid,MDB00000343,2345,Ethylmaonic Encephalopathy
+3-Methyladipic acid,MDB00000186,26,Refsum Disease
+Coprocholic acid,MDB00029864,26,Refsum Disease
+Coprocholic acid,MDB00029864,1577,D Bifunctional Protein Deficiency
+Coprocholic acid,MDB00029864,1629,Infantile Refsum Disease
+Coprocholic acid,MDB00029864,6070,Zellweger Syndrome
+Butyric acid,MDB00000020,27,A.I.D.S.
+Butyric acid,MDB00000020,99,Crohn's Disease
+Butyric acid,MDB00000020,196,Irritable Bowel Syndrome
+Butyric acid,MDB00000020,6247,Ulcerative Colitis
+Leukotriene C4,MDB00000307,27,A.I.D.S.
+Leukotriene C4,MDB00000307,123,Eczema
+Leukotriene C4,MDB00000307,151,Glutathione Synthetase Deficiency
+Leukotriene C4,MDB00000307,175,Hydrocephalus
+Leukotriene C4,MDB00000307,222,Meningitis
+5-Methyltetrahydrofolic acid,MDB00000321,27,A.I.D.S.
+5-Methyltetrahydrofolic acid,MDB00000321,292,Rett Syndrome
+L-Cysteine,MDB00000192,27,A.I.D.S.
+L-Cysteine,MDB00000192,239,Multiple Sclerosis
+L-Cysteine,MDB00000192,263,Peripheral Neuropathy
+L-Cysteine,MDB00000192,315,Stroke
+L-Cysteine,MDB00000192,316,Sulfite Oxidase Deficiency
+L-Cysteine,MDB00000192,330,Uremia
+Nicotinic acid,MDB00000329,28,Alcoholism
+"(S)-3,4-Dihydroxybutyric acid",MDB00000147,29,Aldehyde Dehydrogenase Deficiency
+3-Aminoisobutanoic acid,MDB00000435,29,Aldehyde Dehydrogenase Deficiency
+Acetaldehyde,MDB00000293,29,Aldehyde Dehydrogenase Deficiency
+Acetaldehyde,MDB00000293,6328,Ethanol Consumption
+Homogentisic acid,MDB00000062,30,Alkaptonuria
+Glycocholic acid,MDB00000066,31,Alpha 1 Antitrypsin Deficiency
+Glycocholic acid,MDB00000066,73,Celiac Disease
+Glycocholic acid,MDB00000066,82,Chronic Active Hepatitis
+Glycocholic acid,MDB00000066,153,Glycogen Storage Disease
+Glycocholic acid,MDB00000066,167,Hepatobiliary Diseases
+Glycocholic acid,MDB00000066,192,Intrahepatic Biliary Hypoplasia
+Glycocholic acid,MDB00000066,271,Portal Vein Obstruction
+Oxoadipic acid,MDB00000107,32,Alpha Aminoadipic Aciduria
+2-Hydroxyadipic acid,MDB00000145,32,Alpha Aminoadipic Aciduria
+Aminoadipic acid,MDB00000178,32,Alpha Aminoadipic Aciduria
+L-Valine,MDB00000274,33,Alzheimer's Disease
+L-Valine,MDB00000274,65,Cachexia
+L-Valine,MDB00000274,220,Maple Syrup Urine Disease
+L-Valine,MDB00000274,261,Paraquat Poisoning
+L-Valine,MDB00000274,267,Phenylketonuria
+Citrulline,MDB00000279,33,Alzheimer's Disease
+Citrulline,MDB00000279,44,Argininosuccinic Aciduria
+Citrulline,MDB00000279,133,Schizophrenia
+Citrulline,MDB00000279,1195,Classic Citrullinemia
+Hydroxyproline,MDB00000237,33,Alzheimer's Disease
+Hydroxyproline,MDB00000237,161,Hemodialysis
+Hydroxyproline,MDB00000237,1389,Iminoglycinuria
+Hydroxyproline,MDB00000237,5823,Eosinophilic Esophagitis
+L-Leucine,MDB00000218,33,Alzheimer's Disease
+L-Leucine,MDB00000218,159,Heart Failure
+L-Leucine,MDB00000218,220,Maple Syrup Urine Disease
+Glycine,MDB00000058,33,Alzheimer's Disease
+Glycine,MDB00000058,44,Argininosuccinic Aciduria
+Glycine,MDB00000058,113,D Glyceric Acidemia
+Glycine,MDB00000058,126,Epilepsy
+Glycine,MDB00000058,133,Schizophrenia
+Glycine,MDB00000058,146,Glucoglycinuria
+Glycine,MDB00000058,267,Phenylketonuria
+Glycine,MDB00000058,281,Propionic Acidemia
+Glycine,MDB00000058,557,Lewy Body Dementia
+Glycine,MDB00000058,1358,Hyperammonemia due to Carbamoyl Phosphate Synthetase I Deficiency
+Glycine,MDB00000058,3467,Phosphoserine Aminotransferase Deficiency
+Glycine,MDB00000058,5497,Phosphoserine Phosphatase Deficiency
+Glycine,MDB00000058,5705,Autosomal Dominant Polycystic Kidney Disease
+Glycine,MDB00000058,5823,Eosinophilic Esophagitis
+L-Glutamine,MDB00000205,33,Alzheimer's Disease
+L-Glutamine,MDB00000205,34,Pregnancy
+L-Glutamine,MDB00000205,207,Leukemia
+L-Glutamine,MDB00000205,1358,Hyperammonemia due to Carbamoyl Phosphate Synthetase I Deficiency
+L-Glutamine,MDB00000205,3279,Congenital Glutamine Defficiency
+L-Glutamine,MDB00000205,5823,Eosinophilic Esophagitis
+L-Threonine,MDB00000081,33,Alzheimer's Disease
+L-Threonine,MDB00000081,133,Schizophrenia
+L-Threonine,MDB00000081,251,Obesity
+L-Threonine,MDB00000081,1195,Classic Citrullinemia
+L-Lysine,MDB00000087,33,Alzheimer's Disease
+L-Lysine,MDB00000087,104,Cystinuria
+L-Lysine,MDB00000087,133,Schizophrenia
+L-Lysine,MDB00000087,205,L 2 Hydroxyglutaric Aciduria
+L-Lysine,MDB00000087,213,Lysinuric Protein Intolerance
+L-Lysine,MDB00000087,281,Propionic Acidemia
+L-Lysine,MDB00000087,1195,Classic Citrullinemia
+L-Lysine,MDB00000087,1358,Hyperammonemia due to Carbamoyl Phosphate Synthetase I Deficiency
+L-Lysine,MDB00000087,5705,Autosomal Dominant Polycystic Kidney Disease
+Ornithine,MDB00000102,33,Alzheimer's Disease
+Ornithine,MDB00000102,34,Pregnancy
+Ornithine,MDB00000102,104,Cystinuria
+Ornithine,MDB00000102,213,Lysinuric Protein Intolerance
+Ornithine,MDB00000102,251,Obesity
+Ornithine,MDB00000102,330,Uremia
+Ornithine,MDB00000102,2093,Pearson Marrow Pancreas Syndrome
+Carnosine,MDB00000016,33,Alzheimer's Disease
+Carnosine,MDB00000016,72,Carnosinuria
+Glycylproline,MDB00000236,33,Alzheimer's Disease
+Glycylproline,MDB00000236,280,Prolidase Deficiency
+Glycylproline,MDB00000236,5823,Eosinophilic Esophagitis
+L-Histidine,MDB00000085,33,Alzheimer's Disease
+L-Histidine,MDB00000085,109,Dengue Fever
+L-Histidine,MDB00000085,171,Histidinemia
+L-Histidine,MDB00000085,207,Leukemia
+L-Histidine,MDB00000085,557,Lewy Body Dementia
+L-Histidine,MDB00000085,5705,Autosomal Dominant Polycystic Kidney Disease
+L-Histidine,MDB00000085,5823,Eosinophilic Esophagitis
+L-Isoleucine,MDB00000083,33,Alzheimer's Disease
+L-Isoleucine,MDB00000083,159,Heart Failure
+L-Isoleucine,MDB00000083,220,Maple Syrup Urine Disease
+L-Isoleucine,MDB00000083,5705,Autosomal Dominant Polycystic Kidney Disease
+Anserine,MDB00000094,33,Alzheimer's Disease
+Anserine,MDB00000094,5823,Eosinophilic Esophagitis
+L-Tryptophan,MDB00000284,33,Alzheimer's Disease
+L-Tryptophan,MDB00000284,207,Leukemia
+L-Tryptophan,MDB00000284,303,Sepsis
+L-Tryptophan,MDB00000284,5823,Eosinophilic Esophagitis
+L-Cystathionine,MDB00000052,33,Alzheimer's Disease
+L-Cystathionine,MDB00000052,102,Cystathioninuria
+L-Phenylalanine,MDB00000077,33,Alzheimer's Disease
+L-Phenylalanine,MDB00000077,50,Bacterial Infections
+L-Phenylalanine,MDB00000077,133,Schizophrenia
+L-Phenylalanine,MDB00000077,220,Maple Syrup Urine Disease
+L-Phenylalanine,MDB00000077,244,Myocardial Infarction
+L-Phenylalanine,MDB00000077,267,Phenylketonuria
+L-Phenylalanine,MDB00000077,303,Sepsis
+L-Phenylalanine,MDB00000077,557,Lewy Body Dementia
+L-Phenylalanine,MDB00000077,5864,Hyperphenylalaninemia
+Cytidine,MDB00000047,33,Alzheimer's Disease
+Cytidine,MDB00000047,67,Canavan Disease
+Cytidine,MDB00000047,557,Lewy Body Dementia
+L-Serine,MDB00000089,33,Alzheimer's Disease
+L-Serine,MDB00000089,133,Schizophrenia
+L-Serine,MDB00000089,159,Heart Failure
+L-Serine,MDB00000089,557,Lewy Body Dementia
+L-Serine,MDB00000089,2294,Phosphoglycerate Dehydrogenase Deficiency
+L-Serine,MDB00000089,3467,Phosphoserine Aminotransferase Deficiency
+L-Serine,MDB00000089,5497,Phosphoserine Phosphatase Deficiency
+L-Serine,MDB00000089,5705,Autosomal Dominant Polycystic Kidney Disease
+Beta-Alanine,MDB00000028,33,Alzheimer's Disease
+Beta-Alanine,MDB00000028,114,Dihydropyrimidinase Deficiency
+Beta-Alanine,MDB00000028,557,Lewy Body Dementia
+Beta-Alanine,MDB00000028,4050,GABA-Transaminase Deficiency
+Guanine,MDB00000063,33,Alzheimer's Disease
+L-Malic acid,MDB00000075,33,Alzheimer's Disease
+L-Malic acid,MDB00000075,42,Anoxia
+L-Malic acid,MDB00000075,557,Lewy Body Dementia
+L-Malic acid,MDB00000075,5823,Eosinophilic Esophagitis
+Hypoxanthine,MDB00013421,33,Alzheimer's Disease
+Hypoxanthine,MDB00013421,67,Canavan Disease
+Hypoxanthine,MDB00013421,175,Hydrocephalus
+Hypoxanthine,MDB00013421,206,Lesch Nyhan Syndrome
+Hypoxanthine,MDB00013421,316,Sulfite Oxidase Deficiency
+Hypoxanthine,MDB00013421,330,Uremia
+Hypoxanthine,MDB00013421,1734,Xanthinuria Type 1
+Hypoxanthine,MDB00013421,1900,Phosphoribosylpyrophosphate Synthetase Superactivity
+cis-Aconitic acid,MDB00000038,33,Alzheimer's Disease
+cis-Aconitic acid,MDB00000038,557,Lewy Body Dementia
+Oxidized glutathione,MDB00000421,33,Alzheimer's Disease
+Oxidized glutathione,MDB00000421,239,Multiple Sclerosis
+Isocitric acid,MDB00000093,33,Alzheimer's Disease
+Isocitric acid,MDB00000093,42,Anoxia
+Isocitric acid,MDB00000093,557,Lewy Body Dementia
+D-Ribulose 5-phosphate,MDB00000201,33,Alzheimer's Disease
+D-Ribulose 5-phosphate,MDB00000201,557,Lewy Body Dementia
+L-Alanine,MDB00000078,33,Alzheimer's Disease
+L-Alanine,MDB00000078,126,Epilepsy
+L-Alanine,MDB00000078,133,Schizophrenia
+L-Alanine,MDB00000078,159,Heart Failure
+L-Alanine,MDB00000078,212,Lung Cancer
+L-Alanine,MDB00000078,222,Meningitis
+L-Alanine,MDB00000078,261,Paraquat Poisoning
+L-Alanine,MDB00000078,2093,Pearson Marrow Pancreas Syndrome
+L-Alanine,MDB00000078,2761,Amish Type Microcephaly
+L-Alanine,MDB00000078,3049,Pyruvate Dehydrogenase Phosphatase Deficiency
+L-Alanine,MDB00000078,5823,Eosinophilic Esophagitis
+Uridine 5'-monophosphate,MDB00000134,33,Alzheimer's Disease
+Glycerol 3-phosphate,MDB00000061,33,Alzheimer's Disease
+Glycerol 3-phosphate,MDB00000061,557,Lewy Body Dementia
+Homocysteine,MDB00013433,33,Alzheimer's Disease
+Homocysteine,MDB00013433,36,Amyotrophic Lateral Sclerosis
+Homocysteine,MDB00013433,83,Chronic Kidney Disease
+Homocysteine,MDB00013433,84,Chronic Renal Failure
+Homocysteine,MDB00013433,161,Hemodialysis
+Homocysteine,MDB00013433,262,Parkinson's Disease
+Homocysteine,MDB00013433,263,Peripheral Neuropathy
+Homocysteine,MDB00013433,304,Sickle Cell Anemia
+Homocysteine,MDB00013433,316,Sulfite Oxidase Deficiency
+Homocysteine,MDB00013433,330,Uremia
+Homocysteine,MDB00013433,1466,Molybdenum Cofactor Deficiency
+Homocysteine,MDB00013433,1700,Transcobalamin Ii Deficiency
+L-Lactic acid,MDB00000090,33,Alzheimer's Disease
+L-Lactic acid,MDB00000090,105,Cytochrome C Oxidase Deficiency
+L-Lactic acid,MDB00000090,115,Diabetes Mellitus Type 2
+L-Lactic acid,MDB00000090,126,Epilepsy
+L-Lactic acid,MDB00000090,261,Paraquat Poisoning
+L-Lactic acid,MDB00000090,281,Propionic Acidemia
+L-Lactic acid,MDB00000090,286,Pyruvate Dehydrogenase Deficiency
+L-Lactic acid,MDB00000090,303,Sepsis
+L-Lactic acid,MDB00000090,1296,Hereditary Fructose Intolerance
+L-Lactic acid,MDB00000090,1297,"Fructose 1,6 Bisphosphatase Deficiency"
+L-Lactic acid,MDB00000090,1507,Hereditary Myopathy With Lactic Acidosis
+L-Lactic acid,MDB00000090,1517,Leigh Syndrome
+L-Lactic acid,MDB00000090,1624,Pyruvate Carboxylase Deficiency
+L-Lactic acid,MDB00000090,2093,Pearson Marrow Pancreas Syndrome
+L-Lactic acid,MDB00000090,2143,M.L.A.S.A.
+L-Lactic acid,MDB00000090,2397,G.R.A.C.I.L.E. Syndrome
+L-Lactic acid,MDB00000090,2761,Amish Type Microcephaly
+L-Lactic acid,MDB00000090,2796,Coenzyme Q10 Deficiency
+L-Lactic acid,MDB00000090,3049,Pyruvate Dehydrogenase Phosphatase Deficiency
+L-Lactic acid,MDB00000090,3317,Type V 3-Methylglutaconic Aciduria
+L-Lactic acid,MDB00000090,3431,Mitochondrial Phosphate Carrier Deficiency
+L-Lactic acid,MDB00000090,3997,Acute Infantile Liver Failure
+L-Lactic acid,MDB00000090,4281,3 Hydroxyacyl Co A Dehydrogenase Deficiency
+L-Lactic acid,MDB00000090,5299,Leber Optic Atrophy And Dystonia
+L-Lactic acid,MDB00000090,5705,Autosomal Dominant Polycystic Kidney Disease
+L-Lactic acid,MDB00000090,5823,Eosinophilic Esophagitis
+L-Lactic acid,MDB00000090,5988,Preeclampsia/Eclampsia
+Phosphorylcholine,MDB00000338,33,Alzheimer's Disease
+Iron,MDB00000221,33,Alzheimer's Disease
+Iron,MDB00000221,6466,Iron Deficiency
+8-Hydroxyguanine,MDB00000370,33,Alzheimer's Disease
+8-Hydroxyguanine,MDB00000370,115,Diabetes Mellitus Type 2
+L-Arginine,MDB00000179,33,Alzheimer's Disease
+L-Arginine,MDB00000179,43,Argininemia
+L-Arginine,MDB00000179,44,Argininosuccinic Aciduria
+L-Arginine,MDB00000179,83,Chronic Kidney Disease
+L-Arginine,MDB00000179,84,Chronic Renal Failure
+L-Arginine,MDB00000179,104,Cystinuria
+L-Arginine,MDB00000179,133,Schizophrenia
+L-Arginine,MDB00000179,159,Heart Failure
+L-Arginine,MDB00000179,207,Leukemia
+L-Arginine,MDB00000179,213,Lysinuric Protein Intolerance
+L-Arginine,MDB00000179,220,Maple Syrup Urine Disease
+L-Arginine,MDB00000179,281,Propionic Acidemia
+L-Arginine,MDB00000179,5823,Eosinophilic Esophagitis
+27-Hydroxycholesterol,MDB00000377,33,Alzheimer's Disease
+27-Hydroxycholesterol,MDB00000377,39,Subarachnoid Hemorrhage
+27-Hydroxycholesterol,MDB00000377,222,Meningitis
+27-Hydroxycholesterol,MDB00000377,234,Mild Cognitive Impairment
+27-Hydroxycholesterol,MDB00000377,248,Neuroborreliosis
+S-Adenosylhomocysteine,MDB00000286,33,Alzheimer's Disease
+S-Adenosylhomocysteine,MDB00000286,262,Parkinson's Disease
+Fumaric acid,MDB00000065,33,Alzheimer's Disease
+Fumaric acid,MDB00000065,138,Fumarase Deficiency
+Fumaric acid,MDB00000065,212,Lung Cancer
+Substance P,MDB00000355,33,Alzheimer's Disease
+Substance P,MDB00000355,223,Spina Bifida
+Substance P,MDB00000355,245,Narcolepsy
+24-Hydroxycholesterol,MDB00000322,33,Alzheimer's Disease
+24-Hydroxycholesterol,MDB00000322,222,Meningitis
+24-Hydroxycholesterol,MDB00000322,234,Mild Cognitive Impairment
+24-Hydroxycholesterol,MDB00000322,248,Neuroborreliosis
+Choline,MDB00000050,33,Alzheimer's Disease
+Choline,MDB00000050,212,Lung Cancer
+Choline,MDB00000050,223,Spina Bifida
+Succinic acid,MDB00000124,33,Alzheimer's Disease
+Succinic acid,MDB00000124,34,Pregnancy
+Succinic acid,MDB00000124,67,Canavan Disease
+Succinic acid,MDB00000124,212,Lung Cancer
+Succinic acid,MDB00000124,5988,Preeclampsia/Eclampsia
+Acetylcholine,MDB00000277,33,Alzheimer's Disease
+Glycerophosphocholine,MDB00000045,33,Alzheimer's Disease
+L-Tyrosine,MDB00000076,33,Alzheimer's Disease
+L-Tyrosine,MDB00000076,157,Hawkinsinuria
+L-Tyrosine,MDB00000076,303,Sepsis
+L-Tyrosine,MDB00000076,557,Lewy Body Dementia
+L-Tyrosine,MDB00000076,1195,Classic Citrullinemia
+8-Hydroxyguanosine,MDB00000371,33,Alzheimer's Disease
+8-Hydroxyguanosine,MDB00000371,262,Parkinson's Disease
+Prolylhydroxyproline,MDB00000488,33,Alzheimer's Disease
+L-Dopa,MDB00000086,33,Alzheimer's Disease
+5-Hydroxylysine,MDB00000163,33,Alzheimer's Disease
+5-Hydroxylysine,MDB00000163,5823,Eosinophilic Esophagitis
+Dopamine,MDB00000039,33,Alzheimer's Disease
+Dopamine,MDB00000039,45,Aromatic L Amino Acid Decarboxylase Deficiency
+Dopamine,MDB00000039,124,Encephalitis
+Dopamine,MDB00000039,186,Hypothyroidism
+Dopamine,MDB00000039,208,Vitiligo
+Dopamine,MDB00000039,222,Meningitis
+Dopamine,MDB00000039,1243,Congenital Dopamine Beta-Hydroxylase Deficiency
+Dopamine,MDB00000039,5823,Eosinophilic Esophagitis
+Tungsten,MDB00000362,33,Alzheimer's Disease
+Tungsten,MDB00000362,239,Multiple Sclerosis
+Tungsten,MDB00000362,262,Parkinson's Disease
+Lead,MDB00000450,33,Alzheimer's Disease
+Lead,MDB00000450,239,Multiple Sclerosis
+Lead,MDB00000450,262,Parkinson's Disease
+Gamma-Aminobutyric acid,MDB00013416,33,Alzheimer's Disease
+Gamma-Aminobutyric acid,MDB00013416,92,Febrile Seizures
+Gamma-Aminobutyric acid,MDB00013416,115,Diabetes Mellitus Type 2
+Gamma-Aminobutyric acid,MDB00013416,126,Epilepsy
+Gamma-Aminobutyric acid,MDB00013416,165,Hepatic Encephalopathy
+Gamma-Aminobutyric acid,MDB00013416,222,Meningitis
+Gamma-Aminobutyric acid,MDB00013416,4050,GABA-Transaminase Deficiency
+Mercury,MDB00000428,33,Alzheimer's Disease
+Mercury,MDB00000428,239,Multiple Sclerosis
+Mercury,MDB00000428,262,Parkinson's Disease
+Manganese,MDB00000315,33,Alzheimer's Disease
+Manganese,MDB00000315,262,Parkinson's Disease
+3-Methylhistidine,MDB00000170,33,Alzheimer's Disease
+3-Methylhistidine,MDB00000170,34,Pregnancy
+3-Methylhistidine,MDB00000170,83,Chronic Kidney Disease
+3-Methylhistidine,MDB00000170,203,Kidney Disease
+3-Methylhistidine,MDB00000170,281,Propionic Acidemia
+3-Methylhistidine,MDB00000170,5988,Preeclampsia/Eclampsia
+Dihydroxyacetone phosphate,MDB00000328,33,Alzheimer's Disease
+Dihydroxyacetone phosphate,MDB00000328,324,Transaldolase Deficiency
+Dihydroxyacetone phosphate,MDB00000328,557,Lewy Body Dementia
+Glucose 6-phosphate,MDB00029998,33,Alzheimer's Disease
+Nickel,MDB00030002,33,Alzheimer's Disease
+Nickel,MDB00030002,239,Multiple Sclerosis
+Nickel,MDB00030002,262,Parkinson's Disease
+Estriol-16-Glucuronide,MDB00000489,34,Pregnancy
+Iodine,MDB00000214,34,Pregnancy
+Monoethyl phthalate,MDB00000378,34,Pregnancy
+"PC(22:5(7Z,10Z,13Z,16Z,19Z)/18:1(9Z))",MDB00000767,34,Pregnancy
+"PC(22:5(7Z,10Z,13Z,16Z,19Z)/18:1(11Z))",MDB00000766,34,Pregnancy
+"PC(22:5(7Z,10Z,13Z,16Z,19Z)/16:1(9Z))",MDB00000765,34,Pregnancy
+"PC(22:5(7Z,10Z,13Z,16Z,19Z)/16:1(9Z))",MDB00000765,251,Obesity
+"PC(22:5(7Z,10Z,13Z,16Z,19Z)/14:1(9Z))",MDB00000764,34,Pregnancy
+"PC(22:5(7Z,10Z,13Z,16Z,19Z)/14:1(9Z))",MDB00000764,251,Obesity
+"PC(18:1(11Z)/22:5(4Z,7Z,10Z,13Z,16Z))",MDB00000582,34,Pregnancy
+"PC(18:1(11Z)/22:5(7Z,10Z,13Z,16Z,19Z))",MDB00000583,34,Pregnancy
+"PC(18:1(11Z)/20:5(5Z,8Z,11Z,14Z,17Z))",MDB00000581,34,Pregnancy
+"PC(18:1(11Z)/20:5(5Z,8Z,11Z,14Z,17Z))",MDB00000581,251,Obesity
+"PC(20:4(5Z,8Z,11Z,14Z)/18:2(9Z,12Z))",MDB00000706,34,Pregnancy
+"PC(20:4(5Z,8Z,11Z,14Z)/18:2(9Z,12Z))",MDB00000706,251,Obesity
+PC(22:0/20:1(11Z)),MDB00000731,34,Pregnancy
+"PC(P-18:1(11Z)/22:5(7Z,10Z,13Z,16Z,19Z))",MDB00000830,34,Pregnancy
+PC(P-18:1(11Z)/24:0),MDB00000831,34,Pregnancy
+"PC(16:0/18:4(6Z,9Z,12Z,15Z))",MDB00000534,34,Pregnancy
+"PC(16:0/18:4(6Z,9Z,12Z,15Z))",MDB00000534,251,Obesity
+"PC(16:0/18:3(9Z,12Z,15Z))",MDB00000533,34,Pregnancy
+"PC(16:0/18:3(6Z,9Z,12Z))",MDB00000532,34,Pregnancy
+"PC(22:2(13Z,16Z)/20:2(11Z,14Z))",MDB00000746,34,Pregnancy
+"PC(22:2(13Z,16Z)/20:3(5Z,8Z,11Z))",MDB00000747,34,Pregnancy
+"PC(22:2(13Z,16Z)/20:3(8Z,11Z,14Z))",MDB00000748,34,Pregnancy
+"PC(22:2(13Z,16Z)/18:4(6Z,9Z,12Z,15Z))",MDB00000745,34,Pregnancy
+"PC(18:3(6Z,9Z,12Z)/20:3(5Z,8Z,11Z))",MDB00000620,34,Pregnancy
+"PC(18:3(6Z,9Z,12Z)/20:3(5Z,8Z,11Z))",MDB00000620,251,Obesity
+"PC(18:3(6Z,9Z,12Z)/20:3(8Z,11Z,14Z))",MDB00000621,34,Pregnancy
+"PC(18:3(6Z,9Z,12Z)/20:3(8Z,11Z,14Z))",MDB00000621,251,Obesity
+"PC(18:3(6Z,9Z,12Z)/18:3(6Z,9Z,12Z))",MDB00000617,34,Pregnancy
+"PC(18:3(6Z,9Z,12Z)/18:3(6Z,9Z,12Z))",MDB00000617,251,Obesity
+"PC(18:3(6Z,9Z,12Z)/18:3(9Z,12Z,15Z))",MDB00000618,34,Pregnancy
+"PC(18:3(6Z,9Z,12Z)/18:3(9Z,12Z,15Z))",MDB00000618,251,Obesity
+PC(14:1(9Z)/18:1(9Z)),MDB00000512,34,Pregnancy
+PC(14:1(9Z)/18:1(9Z)),MDB00000512,251,Obesity
+"PC(14:1(9Z)/18:2(9Z,12Z))",MDB00000513,34,Pregnancy
+PC(14:1(9Z)/18:1(11Z)),MDB00000511,34,Pregnancy
+PC(14:1(9Z)/18:1(11Z)),MDB00000511,251,Obesity
+"PC(20:3(5Z,8Z,11Z)/18:3(6Z,9Z,12Z))",MDB00000686,34,Pregnancy
+"PC(20:3(5Z,8Z,11Z)/18:3(6Z,9Z,12Z))",MDB00000686,251,Obesity
+"PC(20:3(5Z,8Z,11Z)/18:3(9Z,12Z,15Z))",MDB00000687,34,Pregnancy
+"PC(20:3(5Z,8Z,11Z)/18:3(9Z,12Z,15Z))",MDB00000687,251,Obesity
+"PC(20:3(5Z,8Z,11Z)/20:1(11Z))",MDB00000688,34,Pregnancy
+"PC(20:3(5Z,8Z,11Z)/20:3(5Z,8Z,11Z))",MDB00000689,34,Pregnancy
+"PC(20:3(5Z,8Z,11Z)/20:3(8Z,11Z,14Z))",MDB00000690,34,Pregnancy
+PC(P-16:0/14:0),MDB00000799,34,Pregnancy
+"PC(20:3(8Z,11Z,14Z)/20:1(11Z))",MDB00000798,34,Pregnancy
+"PC(14:0/20:4(5Z,8Z,11Z,14Z))",MDB00000498,34,Pregnancy
+"PC(14:0/20:4(5Z,8Z,11Z,14Z))",MDB00000498,251,Obesity
+PC(P-16:0/16:1(9Z)),MDB00000800,34,Pregnancy
+PC(P-16:0/16:1(9Z)),MDB00000800,251,Obesity
+"PC(20:3(8Z,11Z,14Z)/20:3(5Z,8Z,11Z))",MDB00000699,34,Pregnancy
+PC(14:0/18:1(11Z)),MDB00000491,34,Pregnancy
+PC(14:0/18:1(11Z)),MDB00000491,251,Obesity
+PC(14:0/18:1(9Z)),MDB00000492,34,Pregnancy
+PC(14:0/18:1(9Z)),MDB00000492,251,Obesity
+"PC(14:0/18:3(9Z,12Z,15Z))",MDB00000494,34,Pregnancy
+"PC(14:0/18:2(9Z,12Z))",MDB00000493,34,Pregnancy
+"PC(14:0/18:2(9Z,12Z))",MDB00000493,251,Obesity
+"PC(20:5(5Z,8Z,11Z,14Z,17Z)/22:0)",MDB00000723,34,Pregnancy
+"PC(20:4(8Z,11Z,14Z,17Z)/14:0)",MDB00000711,34,Pregnancy
+"PC(20:4(8Z,11Z,14Z,17Z)/14:0)",MDB00000711,251,Obesity
+"PC(20:2(11Z,14Z)/14:1(9Z))",MDB00000673,34,Pregnancy
+"PC(16:1(9Z)/18:2(9Z,12Z))",MDB00000547,34,Pregnancy
+PC(24:1(15Z)/P-18:0),MDB00000786,34,Pregnancy
+"PC(18:3(9Z,12Z,15Z)/16:1(9Z))",MDB00000627,34,Pregnancy
+"PC(18:3(9Z,12Z,15Z)/16:1(9Z))",MDB00000627,251,Obesity
+"PC(18:3(9Z,12Z,15Z)/18:3(9Z,12Z,15Z))",MDB00000630,34,Pregnancy
+"PC(18:3(9Z,12Z,15Z)/18:3(9Z,12Z,15Z))",MDB00000630,251,Obesity
+"PC(16:1(9Z)/18:3(6Z,9Z,12Z))",MDB00000548,34,Pregnancy
+"PC(16:1(9Z)/18:3(6Z,9Z,12Z))",MDB00000548,251,Obesity
+PC(o-18:1(9Z)/24:0),MDB00000857,34,Pregnancy
+"PC(20:2(11Z,14Z)/18:4(6Z,9Z,12Z,15Z))",MDB00000676,34,Pregnancy
+"PC(20:2(11Z,14Z)/18:4(6Z,9Z,12Z,15Z))",MDB00000676,251,Obesity
+Tetradecanoylcarnitine,MDB00000468,34,Pregnancy
+Tetradecanoylcarnitine,MDB00000468,149,Glutaric Acidemia Type 2
+Tetradecanoylcarnitine,MDB00000468,251,Obesity
+"PC(P-18:1(11Z)/22:5(4Z,7Z,10Z,13Z,16Z))",MDB00000829,34,Pregnancy
+"PC(18:2(9Z,12Z)/20:4(5Z,8Z,11Z,14Z))",MDB00000608,34,Pregnancy
+"PC(18:2(9Z,12Z)/20:4(5Z,8Z,11Z,14Z))",MDB00000608,251,Obesity
+"PC(18:2(9Z,12Z)/18:4(6Z,9Z,12Z,15Z))",MDB00000606,34,Pregnancy
+"PC(18:2(9Z,12Z)/18:4(6Z,9Z,12Z,15Z))",MDB00000606,251,Obesity
+"PC(16:1(9Z)/22:5(4Z,7Z,10Z,13Z,16Z))",MDB00000555,34,Pregnancy
+"PC(16:1(9Z)/22:5(4Z,7Z,10Z,13Z,16Z))",MDB00000555,251,Obesity
+PC(15:0/15:0),MDB00000526,34,Pregnancy
+"PC(16:1(9Z)/22:5(7Z,10Z,13Z,16Z,19Z))",MDB00000556,34,Pregnancy
+"PC(16:1(9Z)/22:5(7Z,10Z,13Z,16Z,19Z))",MDB00000556,251,Obesity
+PC(14:1(9Z)/P-18:1(9Z)),MDB00000525,34,Pregnancy
+PC(14:1(9Z)/P-18:1(9Z)),MDB00000525,251,Obesity
+"PC(16:1(9Z)/18:3(9Z,12Z,15Z))",MDB00000549,34,Pregnancy
+"PC(16:1(9Z)/18:3(9Z,12Z,15Z))",MDB00000549,251,Obesity
+"PC(20:3(8Z,11Z,14Z)/22:2(13Z,16Z))",MDB00000702,34,Pregnancy
+"PC(20:3(8Z,11Z,14Z)/22:1(13Z))",MDB00000701,34,Pregnancy
+PC(P-18:0/14:1(9Z)),MDB00000810,34,Pregnancy
+PC(P-18:0/14:1(9Z)),MDB00000810,251,Obesity
+2-Hydroxybutyric acid,MDB00000003,34,Pregnancy
+2-Hydroxybutyric acid,MDB00000003,286,Pyruvate Dehydrogenase Deficiency
+2-Hydroxybutyric acid,MDB00000003,5988,Preeclampsia/Eclampsia
+L-Proline,MDB00000079,34,Pregnancy
+L-Proline,MDB00000079,151,Glutathione Synthetase Deficiency
+L-Proline,MDB00000079,1370,Hyperprolinemia Type I
+L-Proline,MDB00000079,1389,Iminoglycinuria
+L-Proline,MDB00000079,5705,Autosomal Dominant Polycystic Kidney Disease
+"PC(22:2(13Z,16Z)/18:2(9Z,12Z))",MDB00000744,34,Pregnancy
+"PC(o-22:0/18:3(9Z,12Z,15Z))",MDB00000860,34,Pregnancy
+PC(o-22:0/20:1(11Z)),MDB00000861,34,Pregnancy
+"PC(o-20:1(11Z)/20:4(8Z,11Z,14Z,17Z))",MDB00000859,34,Pregnancy
+"PC(o-22:0/20:4(8Z,11Z,14Z,17Z))",MDB00000862,34,Pregnancy
+"PC(22:1(13Z)/20:3(5Z,8Z,11Z))",MDB00000739,34,Pregnancy
+"PC(18:4(6Z,9Z,12Z,15Z)/22:0)",MDB00000642,34,Pregnancy
+"PC(18:4(6Z,9Z,12Z,15Z)/20:2(11Z,14Z))",MDB00000641,34,Pregnancy
+"PC(18:4(6Z,9Z,12Z,15Z)/20:2(11Z,14Z))",MDB00000641,251,Obesity
+"PC(22:1(13Z)/18:3(9Z,12Z,15Z))",MDB00000737,34,Pregnancy
+"PC(22:1(13Z)/18:3(6Z,9Z,12Z))",MDB00000736,34,Pregnancy
+PC(22:1(13Z)/20:0),MDB00000738,34,Pregnancy
+"PC(20:4(8Z,11Z,14Z,17Z)/22:1(13Z))",MDB00000717,34,Pregnancy
+"PC(18:4(6Z,9Z,12Z,15Z)/P-16:0)",MDB00000646,34,Pregnancy
+"PC(18:4(6Z,9Z,12Z,15Z)/P-16:0)",MDB00000646,251,Obesity
+PC(24:1(15Z)/18:0),MDB00000783,34,Pregnancy
+"PC(22:5(4Z,7Z,10Z,13Z,16Z)/P-18:1(9Z))",MDB00000762,34,Pregnancy
+"PC(20:5(5Z,8Z,11Z,14Z,17Z)/P-18:1(11Z))",MDB00000725,34,Pregnancy
+"PC(20:5(5Z,8Z,11Z,14Z,17Z)/P-18:1(11Z))",MDB00000725,251,Obesity
+"PC(18:2(9Z,12Z)/20:4(8Z,11Z,14Z,17Z))",MDB00000609,34,Pregnancy
+"PC(18:2(9Z,12Z)/20:4(8Z,11Z,14Z,17Z))",MDB00000609,251,Obesity
+PC(16:0/16:1(9Z)),MDB00000528,34,Pregnancy
+PC(16:0/16:1(9Z)),MDB00000528,251,Obesity
+PC(P-18:1(9Z)/14:1(9Z)),MDB00000833,34,Pregnancy
+PC(P-18:1(9Z)/14:1(9Z)),MDB00000833,251,Obesity
+"PC(22:4(7Z,10Z,13Z,16Z)/18:2(9Z,12Z))",MDB00000751,34,Pregnancy
+"PC(22:4(7Z,10Z,13Z,16Z)/20:1(11Z))",MDB00000753,34,Pregnancy
+PC(14:1(9Z)/18:0),MDB00000510,34,Pregnancy
+PC(14:1(9Z)/18:0),MDB00000510,251,Obesity
+"PC(20:4(5Z,8Z,11Z,14Z)/22:1(13Z))",MDB00000710,34,Pregnancy
+PC(18:1(11Z)/14:0),MDB00000574,34,Pregnancy
+PC(18:1(11Z)/14:0),MDB00000574,251,Obesity
+PC(18:1(11Z)/14:1(9Z)),MDB00000575,34,Pregnancy
+PC(18:1(11Z)/14:1(9Z)),MDB00000575,251,Obesity
+"PC(20:2(11Z,14Z)/20:4(5Z,8Z,11Z,14Z))",MDB00000678,34,Pregnancy
+"PC(20:2(11Z,14Z)/20:4(8Z,11Z,14Z,17Z))",MDB00000679,34,Pregnancy
+"PC(20:2(11Z,14Z)/20:2(11Z,14Z))",MDB00000677,34,Pregnancy
+"PC(o-18:0/22:6(4Z,7Z,10Z,13Z,16Z,19Z))",MDB00000854,34,Pregnancy
+PC(14:0/P-16:0),MDB00000505,34,Pregnancy
+PC(14:0/P-18:1(11Z)),MDB00000506,34,Pregnancy
+PC(14:0/P-18:1(11Z)),MDB00000506,251,Obesity
+"PC(14:0/22:6(4Z,7Z,10Z,13Z,16Z,19Z))",MDB00000504,34,Pregnancy
+"PC(14:0/22:6(4Z,7Z,10Z,13Z,16Z,19Z))",MDB00000504,251,Obesity
+PC(P-18:1(11Z)/14:1(9Z)),MDB00000822,34,Pregnancy
+PC(P-18:1(11Z)/14:1(9Z)),MDB00000822,251,Obesity
+PC(14:0/P-18:1(9Z)),MDB00000507,34,Pregnancy
+PC(14:0/P-18:1(9Z)),MDB00000507,251,Obesity
+Acetic acid,MDB00000021,34,Pregnancy
+Acetic acid,MDB00000021,44,Argininosuccinic Aciduria
+Acetic acid,MDB00000021,220,Maple Syrup Urine Disease
+Acetic acid,MDB00000021,267,Phenylketonuria
+Acetic acid,MDB00000021,281,Propionic Acidemia
+Acetic acid,MDB00000021,5988,Preeclampsia/Eclampsia
+Betaine,MDB00000022,34,Pregnancy
+Betaine,MDB00000022,44,Argininosuccinic Aciduria
+Betaine,MDB00000022,83,Chronic Kidney Disease
+Betaine,MDB00000022,84,Chronic Renal Failure
+Betaine,MDB00000022,133,Schizophrenia
+Betaine,MDB00000022,161,Hemodialysis
+Betaine,MDB00000022,212,Lung Cancer
+Betaine,MDB00000022,264,Peritoneal Dialysis
+Betaine,MDB00000022,5988,Preeclampsia/Eclampsia
+"PC(22:5(7Z,10Z,13Z,16Z,19Z)/20:0)",MDB00000768,34,Pregnancy
+"PC(P-18:1(11Z)/20:5(5Z,8Z,11Z,14Z,17Z))",MDB00000828,34,Pregnancy
+"PC(P-18:1(11Z)/20:5(5Z,8Z,11Z,14Z,17Z))",MDB00000828,251,Obesity
+"PC(18:1(9Z)/20:5(5Z,8Z,11Z,14Z,17Z))",MDB00000594,34,Pregnancy
+"PC(18:1(9Z)/20:5(5Z,8Z,11Z,14Z,17Z))",MDB00000594,251,Obesity
+PC(14:1(9Z)/16:1(9Z)),MDB00000509,34,Pregnancy
+PC(14:1(9Z)/16:1(9Z)),MDB00000509,251,Obesity
+"PC(20:5(5Z,8Z,11Z,14Z,17Z)/P-18:1(9Z))",MDB00000726,34,Pregnancy
+"PC(20:5(5Z,8Z,11Z,14Z,17Z)/P-18:1(9Z))",MDB00000726,251,Obesity
+"LysoPC(20:3(5Z,8Z,11Z))",MDB00000793,34,Pregnancy
+PC(P-18:1(9Z)/14:0),MDB00000832,34,Pregnancy
+PC(P-18:1(9Z)/14:0),MDB00000832,251,Obesity
+"PC(20:4(5Z,8Z,11Z,14Z)/20:2(11Z,14Z))",MDB00000708,34,Pregnancy
+"PC(20:4(5Z,8Z,11Z,14Z)/22:0)",MDB00000709,34,Pregnancy
+"LysoPC(20:4(8Z,11Z,14Z,17Z))",MDB00000794,34,Pregnancy
+Glycerol,MDB00013420,34,Pregnancy
+Glycerol,MDB00013420,115,Diabetes Mellitus Type 2
+Glycerol,MDB00013420,5823,Eosinophilic Esophagitis
+Glycerol,MDB00013420,5988,Preeclampsia/Eclampsia
+"PC(18:4(6Z,9Z,12Z,15Z)/18:2(9Z,12Z))",MDB00000640,34,Pregnancy
+"PC(18:4(6Z,9Z,12Z,15Z)/18:2(9Z,12Z))",MDB00000640,251,Obesity
+Malonylcarnitine,MDB00000376,34,Pregnancy
+Malonylcarnitine,MDB00000376,219,Malonyl Co A Decarboxylase Deficiency
+"PC(14:0/20:4(8Z,11Z,14Z,17Z))",MDB00000499,34,Pregnancy
+"PC(14:0/20:4(8Z,11Z,14Z,17Z))",MDB00000499,251,Obesity
+PC(14:1(9Z)/P-18:1(11Z)),MDB00000524,34,Pregnancy
+PC(14:1(9Z)/P-18:1(11Z)),MDB00000524,251,Obesity
+"PC(14:0/20:3(8Z,11Z,14Z))",MDB00000497,34,Pregnancy
+"PC(22:4(7Z,10Z,13Z,16Z)/20:0)",MDB00000752,34,Pregnancy
+"PC(16:0/22:6(4Z,7Z,10Z,13Z,16Z,19Z))",MDB00000538,34,Pregnancy
+"PC(16:0/22:6(4Z,7Z,10Z,13Z,16Z,19Z))",MDB00000538,251,Obesity
+"PC(22:5(4Z,7Z,10Z,13Z,16Z)/18:1(11Z))",MDB00000758,34,Pregnancy
+"PC(22:5(4Z,7Z,10Z,13Z,16Z)/18:1(9Z))",MDB00000759,34,Pregnancy
+"PC(22:5(4Z,7Z,10Z,13Z,16Z)/16:1(9Z))",MDB00000757,34,Pregnancy
+"PC(22:5(4Z,7Z,10Z,13Z,16Z)/16:1(9Z))",MDB00000757,251,Obesity
+"PC(22:5(4Z,7Z,10Z,13Z,16Z)/20:0)",MDB00000760,34,Pregnancy
+PC(14:1(9Z)/P-18:0),MDB00000523,34,Pregnancy
+PC(14:1(9Z)/P-18:0),MDB00000523,251,Obesity
+"PC(18:2(9Z,12Z)/22:2(13Z,16Z))",MDB00000610,34,Pregnancy
+"PC(18:2(9Z,12Z)/22:4(7Z,10Z,13Z,16Z))",MDB00000611,34,Pregnancy
+"PC(14:1(9Z)/22:5(7Z,10Z,13Z,16Z,19Z))",MDB00000522,34,Pregnancy
+"PC(14:1(9Z)/22:5(7Z,10Z,13Z,16Z,19Z))",MDB00000522,251,Obesity
+"PC(16:1(9Z)/20:5(5Z,8Z,11Z,14Z,17Z))",MDB00000553,34,Pregnancy
+"PC(16:1(9Z)/20:5(5Z,8Z,11Z,14Z,17Z))",MDB00000553,251,Obesity
+"PC(14:1(9Z)/22:5(4Z,7Z,10Z,13Z,16Z))",MDB00000521,34,Pregnancy
+"PC(14:1(9Z)/22:5(4Z,7Z,10Z,13Z,16Z))",MDB00000521,251,Obesity
+"PC(P-16:0/22:6(4Z,7Z,10Z,13Z,16Z,19Z))",MDB00000809,34,Pregnancy
+"PC(P-16:0/22:6(4Z,7Z,10Z,13Z,16Z,19Z))",MDB00000809,251,Obesity
+"PC(20:3(8Z,11Z,14Z)/18:3(9Z,12Z,15Z))",MDB00000698,34,Pregnancy
+"PC(20:3(8Z,11Z,14Z)/18:3(9Z,12Z,15Z))",MDB00000698,251,Obesity
+"PC(20:3(8Z,11Z,14Z)/18:3(6Z,9Z,12Z))",MDB00000697,34,Pregnancy
+"PC(20:3(8Z,11Z,14Z)/18:3(6Z,9Z,12Z))",MDB00000697,251,Obesity
+"PC(20:3(8Z,11Z,14Z)/20:3(8Z,11Z,14Z))",MDB00000700,34,Pregnancy
+Valerylcarnitine,MDB00000850,34,Pregnancy
+Valerylcarnitine,MDB00000850,199,Isovaleric Acidemia
+Valerylcarnitine,MDB00000850,251,Obesity
+"PC(o-18:2(9Z,12Z)/24:0)",MDB00000858,34,Pregnancy
+"PC(20:0/20:4(5Z,8Z,11Z,14Z))",MDB00000654,34,Pregnancy
+"PC(22:1(13Z)/20:3(8Z,11Z,14Z))",MDB00000740,34,Pregnancy
+"PC(22:1(13Z)/20:4(5Z,8Z,11Z,14Z))",MDB00000741,34,Pregnancy
+"PC(22:1(13Z)/20:4(8Z,11Z,14Z,17Z))",MDB00000742,34,Pregnancy
+"PC(20:4(8Z,11Z,14Z,17Z)/20:2(11Z,14Z))",MDB00000715,34,Pregnancy
+"PC(20:4(8Z,11Z,14Z,17Z)/20:0)",MDB00000714,34,Pregnancy
+"PC(20:4(8Z,11Z,14Z,17Z)/22:0)",MDB00000716,34,Pregnancy
+"PC(18:4(6Z,9Z,12Z,15Z)/16:0)",MDB00000637,34,Pregnancy
+"PC(18:4(6Z,9Z,12Z,15Z)/16:0)",MDB00000637,251,Obesity
+Ethanol,MDB00000054,34,Pregnancy
+Ethanol,MDB00000054,83,Chronic Kidney Disease
+Ethanol,MDB00000054,203,Kidney Disease
+Ethanol,MDB00000054,5988,Preeclampsia/Eclampsia
+Ethanol,MDB00000054,6328,Ethanol Consumption
+PC(24:0/P-18:0),MDB00000780,34,Pregnancy
+PC(24:0/P-18:1(9Z)),MDB00000782,34,Pregnancy
+PC(24:0/P-18:1(11Z)),MDB00000781,34,Pregnancy
+"PC(22:4(7Z,10Z,13Z,16Z)/18:0)",MDB00000750,34,Pregnancy
+PC(18:0/24:0),MDB00000570,34,Pregnancy
+"PC(18:3(6Z,9Z,12Z)/P-16:0)",MDB00000624,34,Pregnancy
+"PC(18:3(9Z,12Z,15Z)/14:0)",MDB00000625,34,Pregnancy
+"PC(18:3(9Z,12Z,15Z)/16:0)",MDB00000626,34,Pregnancy
+"PC(18:0/22:4(7Z,10Z,13Z,16Z))",MDB00000568,34,Pregnancy
+"PC(18:0/22:6(4Z,7Z,10Z,13Z,16Z,19Z))",MDB00000569,34,Pregnancy
+"PC(20:2(11Z,14Z)/22:2(13Z,16Z))",MDB00000680,34,Pregnancy
+PC(P-18:0/24:1(15Z)),MDB00000820,34,Pregnancy
+"PC(P-18:0/22:6(4Z,7Z,10Z,13Z,16Z,19Z))",MDB00000818,34,Pregnancy
+PC(P-18:0/24:0),MDB00000819,34,Pregnancy
+PC(P-18:1(11Z)/14:0),MDB00000821,34,Pregnancy
+PC(P-18:1(11Z)/14:0),MDB00000821,251,Obesity
+"PC(22:4(7Z,10Z,13Z,16Z)/P-18:0)",MDB00000754,34,Pregnancy
+LysoPC(P-18:1(9Z)),MDB00000795,34,Pregnancy
+PC(18:1(9Z)/24:0),MDB00000597,34,Pregnancy
+"PC(18:1(9Z)/22:5(4Z,7Z,10Z,13Z,16Z))",MDB00000595,34,Pregnancy
+"PC(18:1(9Z)/22:5(7Z,10Z,13Z,16Z,19Z))",MDB00000596,34,Pregnancy
+"PC(18:3(6Z,9Z,12Z)/24:1(15Z))",MDB00000623,34,Pregnancy
+"PC(22:0/18:4(6Z,9Z,12Z,15Z))",MDB00000729,34,Pregnancy
+PC(22:0/20:0),MDB00000730,34,Pregnancy
+"PC(20:4(5Z,8Z,11Z,14Z)/20:0)",MDB00000707,34,Pregnancy
+LysoPC(16:0),MDB00000790,34,Pregnancy
+LysoPC(16:0),MDB00000790,303,Sepsis
+LysoPC(18:1(11Z)),MDB00000792,34,Pregnancy
+LysoPC(18:1(11Z)),MDB00000792,303,Sepsis
+Formic acid,MDB00000068,34,Pregnancy
+Formic acid,MDB00000068,230,Methyl Formate Exposure
+Formic acid,MDB00000068,5705,Autosomal Dominant Polycystic Kidney Disease
+Formic acid,MDB00000068,5988,Preeclampsia/Eclampsia
+"PC(o-24:0/20:4(8Z,11Z,14Z,17Z))",MDB00000869,34,Pregnancy
+SM(d18:0/22:1(13Z)(OH)),MDB00000871,34,Pregnancy
+SM(d18:0/22:1(13Z)(OH)),MDB00000871,251,Obesity
+LysoPC(17:0),MDB00000848,34,Pregnancy
+LysoPC(17:0),MDB00000848,303,Sepsis
+"PC(20:3(5Z,8Z,11Z)/22:2(13Z,16Z))",MDB00000692,34,Pregnancy
+"PC(20:3(5Z,8Z,11Z)/22:1(13Z))",MDB00000691,34,Pregnancy
+"PC(20:4(5Z,8Z,11Z,14Z)/14:0)",MDB00000704,34,Pregnancy
+"PC(20:4(5Z,8Z,11Z,14Z)/14:0)",MDB00000704,251,Obesity
+"PC(18:3(9Z,12Z,15Z)/24:1(15Z))",MDB00000635,34,Pregnancy
+"PC(18:3(9Z,12Z,15Z)/P-16:0)",MDB00000636,34,Pregnancy
+"PC(22:0/20:4(8Z,11Z,14Z,17Z))",MDB00000733,34,Pregnancy
+"PC(22:0/20:4(5Z,8Z,11Z,14Z))",MDB00000732,34,Pregnancy
+"PC(22:0/20:5(5Z,8Z,11Z,14Z,17Z))",MDB00000734,34,Pregnancy
+Isobutyric acid,MDB00000349,34,Pregnancy
+Isobutyric acid,MDB00000349,5823,Eosinophilic Esophagitis
+Isobutyric acid,MDB00000349,5988,Preeclampsia/Eclampsia
+"PC(22:5(4Z,7Z,10Z,13Z,16Z)/P-18:1(11Z))",MDB00000761,34,Pregnancy
+PC(18:1(9Z)/14:0),MDB00000587,34,Pregnancy
+PC(18:1(9Z)/14:0),MDB00000587,251,Obesity
+PC(18:1(11Z)/24:0),MDB00000584,34,Pregnancy
+"PC(20:1(11Z)/22:4(7Z,10Z,13Z,16Z))",MDB00000670,34,Pregnancy
+"PC(20:1(11Z)/20:5(5Z,8Z,11Z,14Z,17Z))",MDB00000668,34,Pregnancy
+PC(20:1(11Z)/22:0),MDB00000669,34,Pregnancy
+PC(18:1(9Z)/14:1(9Z)),MDB00000588,34,Pregnancy
+PC(18:1(9Z)/14:1(9Z)),MDB00000588,251,Obesity
+"PC(20:1(11Z)/20:3(5Z,8Z,11Z))",MDB00000666,34,Pregnancy
+"PC(20:1(11Z)/20:3(8Z,11Z,14Z))",MDB00000667,34,Pregnancy
+PC(14:0/16:0),MDB00000490,34,Pregnancy
+"PC(22:6(4Z,7Z,10Z,13Z,16Z,19Z)/P-18:0)",MDB00000775,34,Pregnancy
+"PC(22:6(4Z,7Z,10Z,13Z,16Z,19Z)/P-16:0)",MDB00000774,34,Pregnancy
+"PC(22:6(4Z,7Z,10Z,13Z,16Z,19Z)/P-16:0)",MDB00000774,251,Obesity
+"PC(18:3(6Z,9Z,12Z)/14:0)",MDB00000613,34,Pregnancy
+"PC(18:3(6Z,9Z,12Z)/16:1(9Z))",MDB00000615,34,Pregnancy
+"PC(18:3(6Z,9Z,12Z)/16:1(9Z))",MDB00000615,251,Obesity
+"PC(18:3(6Z,9Z,12Z)/16:0)",MDB00000614,34,Pregnancy
+PC(16:1(9Z)/16:1(9Z)),MDB00000543,34,Pregnancy
+PC(16:1(9Z)/16:1(9Z)),MDB00000543,251,Obesity
+"PC(14:1(9Z)/20:2(11Z,14Z))",MDB00000516,34,Pregnancy
+PC(16:1(9Z)/16:0),MDB00000542,34,Pregnancy
+PC(16:1(9Z)/16:0),MDB00000542,251,Obesity
+"PC(14:1(9Z)/20:3(8Z,11Z,14Z))",MDB00000518,34,Pregnancy
+"PC(14:1(9Z)/20:3(8Z,11Z,14Z))",MDB00000518,251,Obesity
+"PC(14:1(9Z)/20:3(5Z,8Z,11Z))",MDB00000517,34,Pregnancy
+"PC(14:1(9Z)/20:3(5Z,8Z,11Z))",MDB00000517,251,Obesity
+"PC(20:3(5Z,8Z,11Z)/14:1(9Z))",MDB00000684,34,Pregnancy
+"PC(20:3(5Z,8Z,11Z)/14:1(9Z))",MDB00000684,251,Obesity
+"PC(20:3(5Z,8Z,11Z)/14:0)",MDB00000683,34,Pregnancy
+D-Glutamic acid,MDB00000422,34,Pregnancy
+D-Glutamic acid,MDB00000422,133,Schizophrenia
+D-Glutamic acid,MDB00000422,143,Gamma Glutamyltransferase Deficiency
+D-Glutamic acid,MDB00000422,557,Lewy Body Dementia
+D-Glutamic acid,MDB00000422,5705,Autosomal Dominant Polycystic Kidney Disease
+"PC(P-16:0/18:4(6Z,9Z,12Z,15Z))",MDB00000806,34,Pregnancy
+"PC(P-16:0/18:3(9Z,12Z,15Z))",MDB00000805,34,Pregnancy
+"PC(P-16:0/18:3(6Z,9Z,12Z))",MDB00000804,34,Pregnancy
+Creatine,MDB00000033,34,Pregnancy
+Creatine,MDB00000033,133,Schizophrenia
+Creatine,MDB00000033,267,Phenylketonuria
+Creatine,MDB00000033,294,Rhabdomyolysis
+Creatine,MDB00000033,330,Uremia
+"PC(22:6(4Z,7Z,10Z,13Z,16Z,19Z)/14:0)",MDB00000771,34,Pregnancy
+"PC(22:6(4Z,7Z,10Z,13Z,16Z,19Z)/14:0)",MDB00000771,251,Obesity
+"PC(22:5(7Z,10Z,13Z,16Z,19Z)/P-18:1(9Z))",MDB00000770,34,Pregnancy
+2-Hydroxyestrone,MDB00000149,34,Pregnancy
+"PC(22:5(7Z,10Z,13Z,16Z,19Z)/P-18:1(11Z))",MDB00000769,34,Pregnancy
+"PC(22:6(4Z,7Z,10Z,13Z,16Z,19Z)/18:0)",MDB00000773,34,Pregnancy
+"PC(22:6(4Z,7Z,10Z,13Z,16Z,19Z)/16:0)",MDB00000772,34,Pregnancy
+"PC(22:6(4Z,7Z,10Z,13Z,16Z,19Z)/16:0)",MDB00000772,251,Obesity
+"PC(20:5(5Z,8Z,11Z,14Z,17Z)/20:1(11Z))",MDB00000722,34,Pregnancy
+Progesterone,MDB00000342,34,Pregnancy
+Progesterone,MDB00000342,1086,Antley Bixler Syndrome With Genital Anomalies And Disordered Steroidogenesis
+"PC(20:4(8Z,11Z,14Z,17Z)/18:2(9Z,12Z))",MDB00000713,34,Pregnancy
+"PC(20:4(8Z,11Z,14Z,17Z)/18:2(9Z,12Z))",MDB00000713,251,Obesity
+"13,14-Dihydro-15-keto PGF2a",MDB00013452,34,Pregnancy
+"PC(18:3(9Z,12Z,15Z)/18:3(6Z,9Z,12Z))",MDB00000629,34,Pregnancy
+"PC(18:3(9Z,12Z,15Z)/18:3(6Z,9Z,12Z))",MDB00000629,251,Obesity
+"PC(18:3(9Z,12Z,15Z)/20:3(8Z,11Z,14Z))",MDB00000633,34,Pregnancy
+"PC(18:3(9Z,12Z,15Z)/20:3(8Z,11Z,14Z))",MDB00000633,251,Obesity
+"PC(18:3(9Z,12Z,15Z)/20:3(5Z,8Z,11Z))",MDB00000632,34,Pregnancy
+"PC(18:3(9Z,12Z,15Z)/20:3(5Z,8Z,11Z))",MDB00000632,251,Obesity
+"PC(18:3(9Z,12Z,15Z)/22:1(13Z))",MDB00000634,34,Pregnancy
+Propylene glycol,MDB00000350,34,Pregnancy
+Propylene glycol,MDB00000350,85,Cirrhosis
+Propylene glycol,MDB00000350,5988,Preeclampsia/Eclampsia
+"PC(24:1(15Z)/18:4(6Z,9Z,12Z,15Z))",MDB00000785,34,Pregnancy
+"PC(22:5(4Z,7Z,10Z,13Z,16Z)/14:1(9Z))",MDB00000756,34,Pregnancy
+"PC(22:5(4Z,7Z,10Z,13Z,16Z)/14:1(9Z))",MDB00000756,251,Obesity
+"PC(24:1(15Z)/18:3(6Z,9Z,12Z))",MDB00000784,34,Pregnancy
+"PC(18:4(6Z,9Z,12Z,15Z)/24:1(15Z))",MDB00000645,34,Pregnancy
+PC(16:0/14:0),MDB00000527,34,Pregnancy
+PC(16:1(9Z)/P-16:0),MDB00000557,34,Pregnancy
+PC(16:1(9Z)/P-16:0),MDB00000557,251,Obesity
+"PC(20:0/20:4(8Z,11Z,14Z,17Z))",MDB00000655,34,Pregnancy
+PC(20:0/22:0),MDB00000656,34,Pregnancy
+PC(20:0/22:1(13Z)),MDB00000657,34,Pregnancy
+"PC(20:0/22:4(7Z,10Z,13Z,16Z))",MDB00000658,34,Pregnancy
+"PC(20:0/22:5(4Z,7Z,10Z,13Z,16Z))",MDB00000659,34,Pregnancy
+"PC(20:0/22:5(7Z,10Z,13Z,16Z,19Z))",MDB00000660,34,Pregnancy
+"PC(P-18:0/22:4(7Z,10Z,13Z,16Z))",MDB00000817,34,Pregnancy
+Acetone,MDB00000340,34,Pregnancy
+Acetone,MDB00000340,99,Crohn's Disease
+Acetone,MDB00000340,165,Hepatic Encephalopathy
+Acetone,MDB00000340,196,Irritable Bowel Syndrome
+Acetone,MDB00000340,5988,Preeclampsia/Eclampsia
+Acetone,MDB00000340,6247,Ulcerative Colitis
+"PC(24:0/18:4(6Z,9Z,12Z,15Z))",MDB00000779,34,Pregnancy
+PC(24:0/18:1(9Z)),MDB00000778,34,Pregnancy
+PC(24:0/18:1(11Z)),MDB00000777,34,Pregnancy
+PC(24:0/18:0),MDB00000776,34,Pregnancy
+"PC(18:2(9Z,12Z)/14:0)",MDB00000600,34,Pregnancy
+"PC(18:2(9Z,12Z)/14:0)",MDB00000600,251,Obesity
+"PC(18:2(9Z,12Z)/14:1(9Z))",MDB00000601,34,Pregnancy
+"PC(18:2(9Z,12Z)/16:1(9Z))",MDB00000603,34,Pregnancy
+PC(18:0/14:1(9Z)),MDB00000561,34,Pregnancy
+PC(18:0/14:1(9Z)),MDB00000561,251,Obesity
+Dimethylamine,MDB00000046,34,Pregnancy
+Dimethylamine,MDB00000046,267,Phenylketonuria
+Dimethylamine,MDB00000046,294,Rhabdomyolysis
+PC(P-18:1(9Z)/24:0),MDB00000842,34,Pregnancy
+"PC(P-18:1(9Z)/22:5(7Z,10Z,13Z,16Z,19Z))",MDB00000841,34,Pregnancy
+"PC(P-18:1(9Z)/22:5(4Z,7Z,10Z,13Z,16Z))",MDB00000840,34,Pregnancy
+"PC(P-18:1(9Z)/20:5(5Z,8Z,11Z,14Z,17Z))",MDB00000839,34,Pregnancy
+"PC(P-18:1(9Z)/20:5(5Z,8Z,11Z,14Z,17Z))",MDB00000839,251,Obesity
+"PC(o-24:0/18:3(9Z,12Z,15Z))",MDB00000868,34,Pregnancy
+"PC(o-24:0/18:3(6Z,9Z,12Z))",MDB00000867,34,Pregnancy
+"PC(o-22:2(13Z,16Z)/22:2(13Z,16Z))",MDB00000865,34,Pregnancy
+"PC(o-22:2(13Z,16Z)/20:2(11Z,14Z))",MDB00000864,34,Pregnancy
+"PC(o-22:2(13Z,16Z)/22:3(10Z,13Z,16Z))",MDB00000866,34,Pregnancy
+"PC(o-22:1(13Z)/22:3(10Z,13Z,16Z))",MDB00000863,34,Pregnancy
+"PC(20:3(8Z,11Z,14Z)/14:0)",MDB00000694,34,Pregnancy
+"PC(20:3(8Z,11Z,14Z)/14:1(9Z))",MDB00000695,34,Pregnancy
+"PC(20:3(8Z,11Z,14Z)/14:1(9Z))",MDB00000695,251,Obesity
+"PC(18:4(6Z,9Z,12Z,15Z)/24:0)",MDB00000644,34,Pregnancy
+"PC(18:4(6Z,9Z,12Z,15Z)/22:2(13Z,16Z))",MDB00000643,34,Pregnancy
+"PC(20:5(5Z,8Z,11Z,14Z,17Z)/18:1(9Z))",MDB00000721,34,Pregnancy
+"PC(20:5(5Z,8Z,11Z,14Z,17Z)/18:1(9Z))",MDB00000721,251,Obesity
+"PC(20:5(5Z,8Z,11Z,14Z,17Z)/18:1(11Z))",MDB00000720,34,Pregnancy
+"PC(20:5(5Z,8Z,11Z,14Z,17Z)/18:1(11Z))",MDB00000720,251,Obesity
+"PC(18:3(6Z,9Z,12Z)/22:1(13Z))",MDB00000622,34,Pregnancy
+"PC(20:5(5Z,8Z,11Z,14Z,17Z)/16:1(9Z))",MDB00000719,34,Pregnancy
+"PC(20:5(5Z,8Z,11Z,14Z,17Z)/16:1(9Z))",MDB00000719,251,Obesity
+Nitrogen,MDB00029899,34,Pregnancy
+Octadecenoylcarnitine,MDB00029902,34,Pregnancy
+PC(16:0/24:1(15Z)),MDB00030011,34,Pregnancy
+PC(16:1(9Z)/24:0),MDB00030012,34,Pregnancy
+PC(18:0/22:1(13Z)),MDB00030013,34,Pregnancy
+PC(18:1(11Z)/22:0),MDB00030014,34,Pregnancy
+PC(18:1(9Z)/22:0),MDB00030015,34,Pregnancy
+PC(20:0/20:1(11Z)),MDB00030016,34,Pregnancy
+"PC(20:0/22:6(4Z,7Z,10Z,13Z,16Z,19Z))",MDB00030017,34,Pregnancy
+PC(20:1(11Z)/20:0),MDB00030018,34,Pregnancy
+"PC(20:1(11Z)/22:5(4Z,7Z,10Z,13Z,16Z))",MDB00030019,34,Pregnancy
+"PC(20:1(11Z)/22:5(7Z,10Z,13Z,16Z,19Z))",MDB00030020,34,Pregnancy
+"PC(20:2(11Z,14Z)/22:4(7Z,10Z,13Z,16Z))",MDB00030021,34,Pregnancy
+"PC(20:4(5Z,8Z,11Z,14Z)/22:2(13Z,16Z))",MDB00030022,34,Pregnancy
+"PC(20:4(8Z,11Z,14Z,17Z)/22:2(13Z,16Z))",MDB00030023,34,Pregnancy
+"PC(20:5(5Z,8Z,11Z,14Z,17Z)/22:1(13Z))",MDB00030024,34,Pregnancy
+PC(22:0/18:1(11Z)),MDB00030025,34,Pregnancy
+PC(22:0/18:1(9Z)),MDB00030026,34,Pregnancy
+PC(22:0/P-18:1(11Z)),MDB00030027,34,Pregnancy
+PC(22:0/P-18:1(9Z)),MDB00030028,34,Pregnancy
+PC(22:1(13Z)/18:0),MDB00030029,34,Pregnancy
+"PC(22:1(13Z)/20:5(5Z,8Z,11Z,14Z,17Z))",MDB00030030,34,Pregnancy
+PC(22:1(13Z)/P-18:0),MDB00030031,34,Pregnancy
+"PC(22:2(13Z,16Z)/20:4(5Z,8Z,11Z,14Z))",MDB00030032,34,Pregnancy
+"PC(22:2(13Z,16Z)/20:4(8Z,11Z,14Z,17Z))",MDB00030033,34,Pregnancy
+"PC(22:4(7Z,10Z,13Z,16Z)/20:2(11Z,14Z))",MDB00030034,34,Pregnancy
+"PC(22:5(4Z,7Z,10Z,13Z,16Z)/20:1(11Z))",MDB00030035,34,Pregnancy
+"PC(22:5(7Z,10Z,13Z,16Z,19Z)/20:1(11Z))",MDB00030036,34,Pregnancy
+"PC(22:6(4Z,7Z,10Z,13Z,16Z,19Z)/20:0)",MDB00030037,34,Pregnancy
+PC(24:0/16:1(9Z)),MDB00030038,34,Pregnancy
+PC(24:1(15Z)/16:0),MDB00030039,34,Pregnancy
+PC(24:1(15Z)/P-16:0),MDB00030040,34,Pregnancy
+PC(O-16:0/20:0),MDB00029936,34,Pregnancy
+PC(O-16:0/22:0),MDB00029937,34,Pregnancy
+PC(o-16:1(9Z)/22:0),MDB00030047,34,Pregnancy
+PC(O-18:0/20:0),MDB00029939,34,Pregnancy
+PC(O-18:0/24:0),MDB00029940,34,Pregnancy
+PC(o-18:1(9Z)/20:1(11Z)),MDB00030048,34,Pregnancy
+"PC(o-18:2(9Z,12Z)/20:0)",MDB00030049,34,Pregnancy
+PC(O-20:0/22:0),MDB00029943,34,Pregnancy
+"PC(O-22:0/18:3(6Z,9Z,12Z))",MDB00029944,34,Pregnancy
+"PC(O-22:0/22:3(10Z,13Z,16Z))",MDB00029945,34,Pregnancy
+"PC(O-22:0/22:6(4Z,7Z,10Z,13Z,16Z,19Z))",MDB00029946,34,Pregnancy
+"PC(O-22:1(13Z)/20:4(8Z,11Z,14Z,17Z))",MDB00029947,34,Pregnancy
+"PC(O-22:1(13Z)/22:2(13Z,16Z))",MDB00029948,34,Pregnancy
+"PC(O-22:3(10Z,13Z,16Z)/22:3(10Z,13Z,16Z))",MDB00029949,34,Pregnancy
+PC(P-16:0/24:1(15Z)),MDB00030043,34,Pregnancy
+PC(P-18:0/22:1(13Z)),MDB00030044,34,Pregnancy
+PC(P-18:1(11Z)/22:0),MDB00030045,34,Pregnancy
+PC(P-18:1(9Z)/22:0),MDB00030046,34,Pregnancy
+SM C16:1,MDB00029967,34,Pregnancy
+Acetylglycine,MDB00000183,35,Aminoacylase I Deficiency
+Picolinic acid,MDB00000386,36,Amyotrophic Lateral Sclerosis
+Prostaglandin E2,MDB00000309,36,Amyotrophic Lateral Sclerosis
+Prostaglandin E2,MDB00000309,175,Hydrocephalus
+Prostaglandin E2,MDB00000309,222,Meningitis
+Quinolinic acid,MDB00000112,36,Amyotrophic Lateral Sclerosis
+Quinolinic acid,MDB00000112,164,Hepatic Coma
+Quinolinic acid,MDB00000112,330,Uremia
+Nitrate,MDB00030005,36,Amyotrophic Lateral Sclerosis
+Nitrate,MDB00030005,5988,Preeclampsia/Eclampsia
+Guanosine diphosphate,MDB00000308,39,Subarachnoid Hemorrhage
+Adenosine triphosphate,MDB00000185,39,Subarachnoid Hemorrhage
+Adenosine triphosphate,MDB00000185,288,Rachialgia
+Adenosine triphosphate,MDB00000185,315,Stroke
+ADP,MDB00000316,39,Subarachnoid Hemorrhage
+ADP,MDB00000316,126,Epilepsy
+Norepinephrine,MDB00000103,39,Subarachnoid Hemorrhage
+Norepinephrine,MDB00000103,160,Heat Stress
+Norepinephrine,MDB00000103,186,Hypothyroidism
+Norepinephrine,MDB00000103,222,Meningitis
+Norepinephrine,MDB00000103,330,Uremia
+Norepinephrine,MDB00000103,1243,Congenital Dopamine Beta-Hydroxylase Deficiency
+11-Dehydro-thromboxane B2,MDB00000445,40,Angina
+L-Glutamic acid,MDB00000070,42,Anoxia
+L-Glutamic acid,MDB00000070,126,Epilepsy
+L-Glutamic acid,MDB00000070,133,Schizophrenia
+L-Glutamic acid,MDB00000070,159,Heart Failure
+L-Glutamic acid,MDB00000070,207,Leukemia
+L-Glutamic acid,MDB00000070,1359,N Acetylglutamate Synthase Deficiency
+Oxoglutaric acid,MDB00000099,42,Anoxia
+Oxoglutaric acid,MDB00000099,138,Fumarase Deficiency
+Oxoglutaric acid,MDB00000099,2761,Amish Type Microcephaly
+Oxoglutaric acid,MDB00000099,5823,Eosinophilic Esophagitis
+Oxalacetic acid,MDB00000105,42,Anoxia
+Oxaloacetic acid,MDB00000105,267,Phenylketonuria
+Uracil,MDB00000139,43,Argininemia
+Uracil,MDB00000139,67,Canavan Disease
+Uracil,MDB00000139,114,Dihydropyrimidinase Deficiency
+Uracil,MDB00000139,1358,Hyperammonemia due to Carbamoyl Phosphate Synthetase I Deficiency
+Uracil,MDB00000139,1466,Molybdenum Cofactor Deficiency
+Homo-L-arginine,MDB00000212,43,Argininemia
+N-a-Acetyl-L-arginine,MDB00030009,43,Argininemia
+Argininosuccinic acid,MDB00000025,44,Argininosuccinic Aciduria
+Hippuric acid,MDB00000231,44,Argininosuccinic Aciduria
+Hippuric acid,MDB00000231,261,Paraquat Poisoning
+Hippuric acid,MDB00000231,267,Phenylketonuria
+Hippuric acid,MDB00000231,330,Uremia
+Ammonia,MDB00013415,44,Argininosuccinic Aciduria
+Ammonia,MDB00013415,316,Sulfite Oxidase Deficiency
+Ammonia,MDB00013415,1195,Classic Citrullinemia
+Ammonia,MDB00013415,1359,N Acetylglutamate Synthase Deficiency
+Ammonia,MDB00013415,1506,Carnitine Palmitoyltransferase I Deficiency
+Ammonia,MDB00013415,1624,Pyruvate Carboxylase Deficiency
+Ammonia,MDB00013415,2402,Adult Onset Type II Citrullinemia
+Ammonia,MDB00013415,4281,3 Hydroxyacyl Co A Dehydrogenase Deficiency
+5-Hydroxyindoleacetic acid,MDB00000246,45,Aromatic L Amino Acid Decarboxylase Deficiency
+5-Hydroxyindoleacetic acid,MDB00000246,59,Bipolar Disorder
+5-Hydroxyindoleacetic acid,MDB00000246,73,Celiac Disease
+5-Hydroxyindoleacetic acid,MDB00000246,126,Epilepsy
+5-Hydroxyindoleacetic acid,MDB00000246,133,Schizophrenia
+5-Hydroxyindoleacetic acid,MDB00000246,302,Sepiapterin Reductase Deficiency
+5-Hydroxyindoleacetic acid,MDB00000246,1886,Brunner Syndrome
+5-Hydroxyindoleacetic acid,MDB00000246,5759,Carcinoid Tumors
+5-Hydroxyindoleacetic acid,MDB00000246,5823,Eosinophilic Esophagitis
+Vanillylmandelic acid,MDB00000136,45,Aromatic L Amino Acid Decarboxylase Deficiency
+Vanillylmandelic acid,MDB00000136,1886,Brunner Syndrome
+Vanillylmandelic acid,MDB00000136,5823,Eosinophilic Esophagitis
+Homovanillic acid,MDB00013418,45,Aromatic L Amino Acid Decarboxylase Deficiency
+Homovanillic acid,MDB00013418,73,Celiac Disease
+Homovanillic acid,MDB00013418,133,Schizophrenia
+Homovanillic acid,MDB00013418,136,Friedreich's Ataxia
+Homovanillic acid,MDB00013418,186,Hypothyroidism
+Homovanillic acid,MDB00013418,262,Parkinson's Disease
+Homovanillic acid,MDB00013418,302,Sepiapterin Reductase Deficiency
+Homovanillic acid,MDB00013418,1709,Urocanase Deficiency
+Homovanillic acid,MDB00013418,1886,Brunner Syndrome
+Homovanillic acid,MDB00013418,5823,Eosinophilic Esophagitis
+3-Methoxytyrosine,MDB00000324,45,Aromatic L Amino Acid Decarboxylase Deficiency
+3-Methoxytyrosine,MDB00000324,126,Epilepsy
+3-Methoxytyrosine,MDB00000324,285,Purine Nucleoside Phosphorylase Deficiency
+Vanylglycol,MDB00000330,45,Aromatic L Amino Acid Decarboxylase Deficiency
+Vanylglycol,MDB00000330,302,Sepiapterin Reductase Deficiency
+5-Hydroxy-L-tryptophan,MDB00000169,45,Aromatic L Amino Acid Decarboxylase Deficiency
+N-Acetyl-L-tyrosine,MDB00000270,45,Aromatic L Amino Acid Decarboxylase Deficiency
+N-Acetyl-L-tyrosine,MDB00000270,329,Tyrosinemia I
+Theobromine,MDB00000403,46,Asthma
+Caffeine,MDB00000344,46,Asthma
+11b-PGF2a,MDB00000788,46,Asthma
+"1,7-Dimethyluric acid",MDB00000796,46,Asthma
+"1,3-Dimethyluric acid",MDB00000346,46,Asthma
+Theophylline,MDB00000353,46,Asthma
+3-Chlorotyrosine,MDB00000351,46,Asthma
+5-HETE,MDB00000797,46,Asthma
+5-HETE,MDB00000797,295,Rheumatoid Arthritis
+5-HETE,MDB00000797,296,Rhinitis
+3-Methylxanthine,MDB00029999,46,Asthma
+3-(3-Hydroxyphenyl)-3-hydroxypropanoic acid,MDB00000394,48,Autism
+trans-trans-Muconic acid,MDB00000390,53,Benzene Exposure
+Ubiquinol 8,MDB00000298,54,Beta Thalassemia
+Dihydrothymine,MDB00000043,55,Beta Ureidopropionase Deficiency
+Dihydrothymine,MDB00000043,114,Dihydropyrimidinase Deficiency
+Dihydrothymine,MDB00000043,5823,Eosinophilic Esophagitis
+Ureidoisobutyric acid,MDB00000369,55,Beta Ureidopropionase Deficiency
+Thymine,MDB00000127,55,Beta Ureidopropionase Deficiency
+Thymine,MDB00000127,114,Dihydropyrimidinase Deficiency
+2-Methylcitric acid,MDB00000155,58,Biotinidase Deficiency
+2-Methylcitric acid,MDB00000155,281,Propionic Acidemia
+Uric acid,MDB00000135,65,Cachexia
+Uric acid,MDB00000135,67,Canavan Disease
+Uric acid,MDB00000135,206,Lesch Nyhan Syndrome
+Uric acid,MDB00000135,222,Meningitis
+Uric acid,MDB00000135,290,Fanconi Syndrome
+Uric acid,MDB00000135,330,Uremia
+Uric acid,MDB00000135,1164,Congenital Disorder of Glycosylation Type 1A
+Uric acid,MDB00000135,1296,Hereditary Fructose Intolerance
+Uric acid,MDB00000135,1297,"Fructose 1,6 Bisphosphatase Deficiency"
+Uric acid,MDB00000135,1466,Molybdenum Cofactor Deficiency
+Uric acid,MDB00000135,1734,Xanthinuria Type 1
+Uric acid,MDB00000135,1900,Phosphoribosylpyrophosphate Synthetase Superactivity
+N-Acetyl-L-aspartic acid,MDB00000259,67,Canavan Disease
+3-Methyladenine,MDB00000844,67,Canavan Disease
+1-Methyluric acid,MDB00000410,67,Canavan Disease
+Citric acid,MDB00000049,67,Canavan Disease
+Citric acid,MDB00000049,220,Maple Syrup Urine Disease
+Citric acid,MDB00000049,281,Propionic Acidemia
+Citric acid,MDB00000049,557,Lewy Body Dementia
+Citric acid,MDB00000049,2761,Amish Type Microcephaly
+Citric acid,MDB00000049,5823,Eosinophilic Esophagitis
+Glutathione,MDB00000060,67,Canavan Disease
+Glutathione,MDB00000060,133,Schizophrenia
+Glutathione,MDB00000060,239,Multiple Sclerosis

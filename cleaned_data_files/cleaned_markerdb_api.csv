@@ -1,0 +1,160 @@
+biomarker_name,mdbid,condition_id,condition_name
+1-Methylhistidine,MDB00000001,83,chronic kidney disease
+1-Methylhistidine,MDB00000001,203,kidney disease
+Androstenedione,MDB00000026,4,congenital adrenal hyperplasia
+Androstenedione,MDB00000026,1085,lipoid congenital adrenal hyperplasia
+Androstenedione,MDB00000026,4299,"congenital adrenal insufficiency with 46,xy sex reversal"
+Fructosamine,MDB00000368,83,chronic kidney disease
+Fructosamine,MDB00000368,115,diabetes mellitus type 2
+Fructosamine,MDB00000368,203,kidney disease
+D-Glucose,MDB00000057,115,diabetes mellitus type 2
+D-Glucose,MDB00000057,1523,familial hyperinsulinemic hypoglycemia
+D-Glucose,MDB00000057,4299,"congenital adrenal insufficiency with 46,xy sex reversal"
+Potassium,MDB00000194,1085,lipoid congenital adrenal hyperplasia
+Potassium,MDB00000194,4299,"congenital adrenal insufficiency with 46,xy sex reversal"
+Dehydroepiandrosterone,MDB00000041,1085,lipoid congenital adrenal hyperplasia
+Creatinine,MDB00000188,83,chronic kidney disease
+Creatinine,MDB00000188,84,chronic renal failure
+17-Hydroxyprogesterone,MDB00000154,4,congenital adrenal hyperplasia
+17-Hydroxyprogesterone,MDB00000154,1085,lipoid congenital adrenal hyperplasia
+3-Hydroxyisovaleric acid,MDB00013435,115,diabetes mellitus type 2
+(R)-3-Hydroxybutyric acid,MDB00000005,115,diabetes mellitus type 2
+Acetoacetic acid,MDB00000030,115,diabetes mellitus type 2
+Acetoacetic acid,MDB00000030,147,glucose transporter type 1 deficiency syndrome
+L-Carnitine,MDB00000031,252,oculocerebrorenal syndrome
+Cortisol,MDB00000032,1085,lipoid congenital adrenal hyperplasia
+Cortisol,MDB00000032,1088,congenital adrenal hyperplaia due to 17-alpha-hydroxylase deficiency
+Cortisol,MDB00000032,4299,"congenital adrenal insufficiency with 46,xy sex reversal"
+L-Cysteine,MDB00000192,315,stroke
+Glycocholic acid,MDB00000066,153,glycogen storage disease
+Hydroxyproline,MDB00000237,1389,iminoglycinuria
+L-Leucine,MDB00000218,159,heart failure
+Glycine,MDB00000058,113,d glyceric acidemia
+Glycine,MDB00000058,146,glucoglycinuria
+Glycine,MDB00000058,5705,autosomal dominant polycystic kidney disease
+L-Lysine,MDB00000087,5705,autosomal dominant polycystic kidney disease
+L-Histidine,MDB00000085,5705,autosomal dominant polycystic kidney disease
+L-Isoleucine,MDB00000083,159,heart failure
+L-Isoleucine,MDB00000083,5705,autosomal dominant polycystic kidney disease
+L-Serine,MDB00000089,159,heart failure
+L-Serine,MDB00000089,2294,phosphoglycerate dehydrogenase deficiency
+L-Serine,MDB00000089,5705,autosomal dominant polycystic kidney disease
+L-Alanine,MDB00000078,159,heart failure
+Homocysteine,MDB00013433,83,chronic kidney disease
+Homocysteine,MDB00013433,84,chronic renal failure
+L-Lactic acid,MDB00000090,115,diabetes mellitus type 2
+L-Lactic acid,MDB00000090,5705,autosomal dominant polycystic kidney disease
+8-Hydroxyguanine,MDB00000370,115,diabetes mellitus type 2
+L-Arginine,MDB00000179,83,chronic kidney disease
+L-Arginine,MDB00000179,84,chronic renal failure
+L-Arginine,MDB00000179,159,heart failure
+Gamma-Aminobutyric acid,MDB00013416,115,diabetes mellitus type 2
+3-Methylhistidine,MDB00000170,83,chronic kidney disease
+3-Methylhistidine,MDB00000170,203,kidney disease
+L-Proline,MDB00000079,1389,iminoglycinuria
+L-Proline,MDB00000079,5705,autosomal dominant polycystic kidney disease
+Betaine,MDB00000022,83,chronic kidney disease
+Betaine,MDB00000022,84,chronic renal failure
+Glycerol,MDB00013420,115,diabetes mellitus type 2
+Ethanol,MDB00000054,83,chronic kidney disease
+Ethanol,MDB00000054,203,kidney disease
+Formic acid,MDB00000068,5705,autosomal dominant polycystic kidney disease
+D-Glutamic acid,MDB00000422,5705,autosomal dominant polycystic kidney disease
+Adenosine triphosphate,MDB00000185,315,stroke
+L-Glutamic acid,MDB00000070,159,heart failure
+Uric acid,MDB00000135,1164,congenital disorder of glycosylation type 1a
+Bilirubin,MDB00000027,6280,glucose 6 phosphate dehydrogenase deficiency
+"3,5-Diiodo-L-tyrosine",MDB00000425,83,chronic kidney disease
+Histamine,MDB00000271,83,chronic kidney disease
+Histamine,MDB00000271,203,kidney disease
+Histamine,MDB00000271,246,nephrotic syndrome
+Trimethylamine,MDB00000280,83,chronic kidney disease
+Trimethylamine,MDB00000280,203,kidney disease
+Guanidoacetic acid,MDB00013419,83,chronic kidney disease
+Guanidoacetic acid,MDB00013419,84,chronic renal failure
+Methylguanidine,MDB00013439,83,chronic kidney disease
+Methylguanidine,MDB00013439,84,chronic renal failure
+Guanidine,MDB00013442,83,chronic kidney disease
+Guanidine,MDB00013442,84,chronic renal failure
+Allantoin,MDB00000166,83,chronic kidney disease
+Allantoin,MDB00000166,84,chronic renal failure
+Melanin,MDB00000438,83,chronic kidney disease
+Melanin,MDB00000438,84,chronic renal failure
+1-Methylguanosine,MDB00000337,83,chronic kidney disease
+1-Methylguanosine,MDB00000337,203,kidney disease
+Dihydrobiopterin,MDB00000019,83,chronic kidney disease
+Dihydrobiopterin,MDB00000019,203,kidney disease
+"N2,N2-Dimethylguanosine",MDB00000454,83,chronic kidney disease
+"N2,N2-Dimethylguanosine",MDB00000454,203,kidney disease
+Phenylacetic acid,MDB00000100,83,chronic kidney disease
+Phenylacetic acid,MDB00000100,203,kidney disease
+Trimethylamine N-oxide,MDB00000283,83,chronic kidney disease
+Trimethylamine N-oxide,MDB00000283,203,kidney disease
+D-Xylose,MDB00000051,83,chronic kidney disease
+D-Xylose,MDB00000051,203,kidney disease
+Dimethylglycine,MDB00000048,83,chronic kidney disease
+Dimethylglycine,MDB00000048,203,kidney disease
+Symmetric dimethylarginine,MDB00013448,83,chronic kidney disease
+Symmetric dimethylarginine,MDB00013448,203,kidney disease
+Symmetric dimethylarginine,MDB00013448,5705,autosomal dominant polycystic kidney disease
+8-Hydroxy-deoxyguanosine,MDB00000420,83,chronic kidney disease
+8-Hydroxy-deoxyguanosine,MDB00000420,203,kidney disease
+Asymmetric Dimethyl-L-arginine,MDB00013441,83,chronic kidney disease
+Asymmetric Dimethyl-L-arginine,MDB00013441,181,hypertension
+Asymmetric Dimethyl-L-arginine,MDB00013441,203,kidney disease
+Asymmetric Dimethyl-L-arginine,MDB00013441,5705,autosomal dominant polycystic kidney disease
+4-Heptanone,MDB00000453,83,chronic kidney disease
+4-Heptanone,MDB00000453,203,kidney disease
+Guanidinosuccinic acid,MDB00013446,83,chronic kidney disease
+Guanidinosuccinic acid,MDB00013446,84,chronic renal failure
+Lipoxin A4,MDB00000449,95,coronary artery disease
+Hydrogen peroxide,MDB00000411,96,coronary heart disease
+Glycolic acid,MDB00013417,154,glycolic aciduria
+Quercetin,MDB00000472,115,diabetes mellitus type 2
+Lutein,MDB00000416,115,diabetes mellitus type 2
+"1,5-Anhydrosorbitol",MDB00000397,115,diabetes mellitus type 2
+Lycopene,MDB00000408,115,diabetes mellitus type 2
+Zeaxanthin,MDB00000401,115,diabetes mellitus type 2
+(R)-3-Hydroxyisobutyric acid,MDB00000146,115,diabetes mellitus type 2
+Thyroxine,MDB00000121,115,diabetes mellitus type 2
+D-Fructose,MDB00000210,115,diabetes mellitus type 2
+Hyaluronic acid,MDB00000372,115,diabetes mellitus type 2
+Chromium,MDB00000195,115,diabetes mellitus type 2
+Estriol,MDB00000074,115,diabetes mellitus type 2
+(S)-3-Hydroxyisobutyric acid,MDB00000012,115,diabetes mellitus type 2
+Arachidonic acid,MDB00029993,115,diabetes mellitus type 2
+Arachidonic acid,MDB00029993,181,hypertension
+B-Carotene,MDB00029986,115,diabetes mellitus type 2
+Oleic acid,MDB00029979,115,diabetes mellitus type 2
+Pyruvaldehyde,MDB00029995,115,diabetes mellitus type 2
+Glyceric acid,MDB00000067,154,glycolic aciduria
+Leukotriene B4,MDB00000300,181,hypertension
+Oxalic acid,MDB00000389,154,glycolic aciduria
+Pyridinoline,MDB00000266,159,heart failure
+Deoxypyridinoline,MDB00000190,159,heart failure
+Digoxin,MDB00000357,159,heart failure
+L-Methionine,MDB00000224,159,heart failure
+L-Methionine,MDB00000224,2680,glycine n methyltransferase deficiency
+Normetanephrine,MDB00000260,181,hypertension
+Eicosapentaenoic acid,MDB00000363,181,hypertension
+m-Tyramine,MDB00000465,181,hypertension
+Angiotensin II,MDB00000295,181,hypertension
+p-Octopamine,MDB00000455,181,hypertension
+p-Synephrine,MDB00000456,181,hypertension
+Alpha-Linolenic acid,MDB00000318,181,hypertension
+Retinyl ester,MDB00030008,181,hypertension
+Ethanolamine,MDB00000071,5705,autosomal dominant polycystic kidney disease
+Calcidiol,MDB00000426,246,nephrotic syndrome
+25-Hydroxyvitamin D2,MDB00000325,246,nephrotic syndrome
+Prostaglandin B2,MDB00013451,315,stroke
+Docosahexaenoic acid,MDB00000383,315,stroke
+Taurine,MDB00000122,5705,autosomal dominant polycystic kidney disease
+Aldosterone,MDB00000018,1085,lipoid congenital adrenal hyperplasia
+Aldosterone,MDB00000018,1088,congenital adrenal hyperplaia due to 17-alpha-hydroxylase deficiency
+Aldosterone,MDB00000018,4299,"congenital adrenal insufficiency with 46,xy sex reversal"
+Estradiol,MDB00000072,1085,lipoid congenital adrenal hyperplasia
+17a-Hydroxypregnenolone,MDB00000153,4299,"congenital adrenal insufficiency with 46,xy sex reversal"
+Deoxycorticosterone,MDB00000007,1088,congenital adrenal hyperplaia due to 17-alpha-hydroxylase deficiency
+Pregnenolone,MDB00000123,4299,"congenital adrenal insufficiency with 46,xy sex reversal"
+D-Serine,MDB00000423,5705,autosomal dominant polycystic kidney disease
+13(S)-hydroxyoctadecadienoic acid,MDB00000452,5705,autosomal dominant polycystic kidney disease
