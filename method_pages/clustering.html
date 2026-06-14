@@ -1,72 +1,375 @@
 <!DOCTYPE html>
-<html lan="en">
-    <head>
-        <link rel="stylesheet" href="../style.css">
-        <title>Maya's Site</title>
-    </head>
+<html lang="en">
 
-        <body>
-            <header>
-                <h2>CSCI 5612 Project</h2>
-                <h4>Maya Williams</h4>
-            </header>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style.css">
+    <title>Maya's Site - Clustering</title>
 
-            <nav class="navbar">
-                <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="../intro.html">Intro</a></li>
-                    <li><a href="../conclusions.html">Conclusions</a></li>
-                    <li><a href="../dataprep.html">DataPrep_EDA</a></li>
+    <style>
+        main section {
+            width: 90%;
+            float: none;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #c0d4f0;
+        }
 
+        .method-box {
+            background-color: #f4f8ff;
+            border-left: 4px solid #839dc7;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
 
-                    <!-- Dropdown -->
-                    <li class="dropdown">
-                        <a href="#">Methods ▼</a>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 12px 0;
+        }
 
-                        <ul class="dropdown-content">
-                            <li><a href="dataprep.html">DataPrep_EDA</a></li>
-                            <li><a href="clustering.html">Clustering</a></li>
-                            <li><a href="arm.html">ARM</a></li>
-                            <li><a href="naivebayes.html">NaiveBayes</a></li>
-                            <li><a href="dectrees.html">DecTrees</a></li>
-                            <li><a href="svms.html">SVMs</a></li>
-                            <li><a href="regression.html">Regression</a></li>
-                            <li><a href="nn.html">NN</a></li>
-                        </ul>
-                    </li>
+        table th {
+            background-color: #839dc7;
+            color: white;
+            padding: 8px 12px;
+            text-align: left;
+        }
+
+        table td {
+            border: 1px solid #ccc;
+            padding: 8px 12px;
+        }
+
+        table tr:nth-child(even) {
+            background-color: #eef3fb;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ccc;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>CSCI 5612 Project</h2>
+        <h4>Maya Williams</h4>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../intro.html">Intro</a></li>
+            <li><a href="../conclusions.html">Conclusions</a></li>
+            <li><a href="../dataprep.html">DataPrep_EDA</a></li>
+
+            <li class="dropdown">
+                <a href="#">Methods ▼</a>
+
+                <ul class="dropdown-content">
+                    <li><a href="clustering.html">Clustering</a></li>
+                    <li><a href="arm.html">ARM</a></li>
+                    <li><a href="naivebayes.html">NaiveBayes</a></li>
+                    <li><a href="dectrees.html">DecTrees</a></li>
+                    <li><a href="svms.html">SVMs</a></li>
+                    <li><a href="regression.html">Regression</a></li>
+                    <li><a href="nn.html">NN</a></li>
+                    <li><a href="pca.html">PCA</a></li>
+
                 </ul>
-            </nav>
+            </li>
+        </ul>
+    </nav>
 
-            <main>
+    <main>
 
-               <h3>Clustering</h3>
+        <h2>Clustering</h2>
 
-                <section>
-                <h3>Overview</h3>
-                <p>overview of method</p>
-                </section>
+        <section>
+            <h3>(a) Overview</h3>
 
-               <section>
-                <h3>Data</h3>
-                <p>data used</p>
-               </section>
+            <p>
+                Clustering is an extremely useful unsupervised learning method that provides insight into the similarities and patterns within a dataset. An especially useful aspect of
+                clustering is that the groups attached to data points are not pre-defined, allowing the algorithm to identify natural patterns within the data. Partitional clustering
+                uses a predefined number of clusters (K) to group the data. In order to ensure that the chosen number of clusters most accurately categorizes the data, several evaluation
+                methods can be used, such as the silhouette score, which measures how well a data point fits within its assigned cluster, and the elbow method. The elbow method examines the
+                number of clusters that minimizes the within-cluster sum of squares while avoiding unnecessary redundancy. Alongside partitional clustering is hierarchical clustering, which
+                does not require a pre-specified K value and instead builds clusters through a series of merges or splits.
+            </p>
 
-               <section>
-                <h3>Code</h3>
-                <p>link to code</p>
-                <p>brief code overview</p>
-               </section>
+            <p>
+                The choice of distance metric is central to clustering. K-means relies on Euclidean distance to measure how far each point sits from a cluster center, while the hierarchical
+                clustering in this project uses cosine similarity, which compares the direction of each biomarker's pattern of condition associations rather than its raw magnitude. These
+                different distance measures are part of why the two methods reveal different structure in the same biological data.
+            </p>
 
-               <section>
-                <h3>Results</h3>
-                <p>results from method</p>
-               </section>
+            <p>
+                For this project, clustering can provide valuable information about the similarities and patterns among biomarker data related to kidney disease, cardiovascular disease, and
+                diabetes. For each condition, clustering can show how biomarker levels differ between individuals with positive and negative outcomes. From this, it may be possible to identify
+                biomarkers that are especially prominent within each condition. An especially interesting aspect of clustering is that hierarchical clustering can help reveal overlap in biomarkers
+                across these conditions. Biological data is unlikely to form perfectly separated clusters because biomarker measurements are continuous and rarely fit into clearly defined categories,
+                which also gives an advantage to hierarchical clustering. This makes hierarchical clustering particularly useful for exploring gradual relationships and shared characteristics among conditions.
+                Because biomarkers are the primary focus of this analysis, condition labels were removed before clustering to avoid the model "cheating" by grouping observations based on known diagnoses. Instead,
+                the goal is to observe whether natural biomarker patterns emerge and whether these patterns correspond to the presence or absence of clinically diagnosed health conditions.
+            </p>
 
-            </main>
+            <h4>Overview Images</h4>
 
-            <footer>
-                <h2>Footer</h2>
-            </footer>
-        </body>
+            <img src="../images/clustering_overview_1.png"
+                alt="Clustering Overview Image 1">
+
+            <p>
+                <em>Figure 1. Placeholder image describing clustering concepts.</em>
+            </p>
+
+            <img src="../images/clustering_overview_2.png"
+                alt="Clustering Overview Image 2">
+
+            <p>
+                <em>Figure 2. Placeholder image comparing hierarchical and partitional clustering.</em>
+            </p>
+
+        </section>
+
+        <section>
+
+            <h3>(b) Data Preparation</h3>
+
+            <p>
+                Data preparation was also an important aspect of clustering. As briefly mentioned above, condition labels were removed to prevent the model from automatically grouping observations by diagnosis, which was not the primary objective. Converting yes/no responses and other categorical variables into numerical values allows the algorithm to calculate distances and similarities between observations. This step is essential because most clustering algorithms, including K-means, rely on mathematical distance calculations and cannot directly work with text values. For these datasets in particular, biomarker measurements must remain numerical and consistent so that they accurately represent biological levels. Numeric data is especially important for biomarker analysis because clustering algorithms group observations based on how similar their biomarker levels are. The actual magnitude of these measurements matters, as higher or lower biomarker concentrations may indicate different biological systems or levels of disease risk. If biomarker values are missing, inconsistent, or stored as text rather than numbers, the algorithm cannot accurately measure the differences between individuals. By cleaning, standardizing, and converting variables into a numerical format, the resulting clusters are more likely to reflect meaningful biological patterns rather than issues introduced during data collection or processing.
+            </p>
+
+            <h4>Data Sample</h4>
+
+            <img src="../images/pca_images/marker_clust.png"
+                alt="Sample clustering dataset">
+
+            <p>
+                Figure 3. Sample of the MarkerDB dataset used for hierarchical clustering.
+            </p>
+
+            <p>
+                <a href="../ProjectData/data_cleaning/final_cleaned_data_files/cleaned_markerdb_api.csv">
+                    Download Sample Clustering Dataset
+                </a>
+            </p>
+
+            <h3>Cleaned Data Files Used for Clustering</h3>
+            <p><strong>Cardiovascular:</strong>
+                <a href="../ProjectData/data_cleaning/final_cleaned_data_files/cardio_train_cleaned.csv">cardio_train_cleaned.csv</a> |
+                <a href="../ProjectData/data_cleaning/final_cleaned_data_files/framingham_cleaned.csv">framingham_cleaned.csv</a> |
+                <a href="../ProjectData/data_cleaning/final_cleaned_data_files/cleveland_cleaned.csv">cleveland_cleaned.csv</a>
+            </p>
+
+            <p><strong>Diabetes:</strong>
+                <a href="../ProjectData/data_cleaning/final_cleaned_data_files/diabetes_cleaned.csv">diabetes_cleaned.csv</a> |
+                <a href="../ProjectData/data_cleaning/final_cleaned_data_files/nhanes_diabetes_cleaned.csv">nhanes_diabetes_cleaned.csv</a> |
+                <a href="../ProjectData/data_cleaning/final_cleaned_data_files/diabetes_uci_cleaned.csv">diabetes_uci_cleaned.csv</a>
+            </p>
+
+            <p><strong>Kidney:</strong>
+                <a href="../ProjectData/data_cleaning/final_cleaned_data_files/kidney_cleaned.csv">kidney_cleaned.csv</a> |
+                <a href="../ProjectData/data_cleaning/final_cleaned_data_files/nhanes_kidney_cleaned.csv">nhanes_kidney_cleaned.csv</a>
+            </p>
+
+            <p><strong>MarkerDB:</strong>
+                <a href="../ProjectData/data_cleaning/final_cleaned_data_files/cleaned_markerdb_api.csv">cleaned_markerdb_api.csv</a>
+            </p>
+
+        </section>
+
+        <section>
+
+            <h3>(c) Code</h3>
+
+            <p>
+                Python was used to implement both K-means clustering and hierarchical
+                clustering. K-means clustering was performed using multiple values of
+                K and evaluated using silhouette scores. Hierarchical clustering was
+                performed using cosine similarity and visualized using dendrograms. The code
+                also contains code for PCA, pairing these two methods together as a way to compare
+                the clustering and the axes involved with the biomarkers.
+            </p>
+            <p>
+                K-means was run against all datasets as individual conditions first. This was
+                intended to better understand the different biomarkers and how they are associated
+                with disease risk.
+            </p>
+
+            <p>
+                Links to the K-means clustering code below:
+            </p>
+
+            <ul>
+                <li>
+                    <a href="../notebooks/clustering/cardiovascular_clustering (4).html">
+                        Cardiovascular Clustering Code
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../notebooks/clustering/diabetes_clustering (6).html">
+                        Diabetes Clustering Code
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../notebooks/clustering/kidney_clustering (1).html">
+                        Kidney Clustering Notebook
+                    </a>
+                </li>
+            </ul>
+            <p>
+                Hierarchical Clustering on the MarkerDB dataset:
+            </p>
+            <ul>
+                <li>
+                    <a href="../notebooks/clustering/markerDB_hierarchal (3).html">
+                        MarkerDB Hierarchical Clustering
+                    </a>
+                </li>
+            </ul>
+
+        </section>
+
+        <section>
+
+            <h3>(d) Results</h3>
+
+            <h4>Silhouette Analysis</h4>
+            <p>Individual datasets for the conditions showed a similar pattern in silhouette score (specifically how after k = 2, there is a drop off in silhouette score). However, cardiovascular seemed to be the most interesting.</p>
+            <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+
+                <div style="text-align: center; flex: 1;">
+                    <img src="../images/clustering/cardio_cleveland_silo.png"
+                        alt="Silhouette Cleveland">
+                    <p><em>Figure 4. Silhouette for Cardio Cleveland Dataset.</em></p>
+                </div>
+
+                <div style="text-align: center; flex: 1;">
+                    <img src="../images/clustering/cardio_fram_silo.png"
+                        alt="Silhouette Framingham">
+                    <p><em>Figure 5. Silhouette for Cardio Framingham Dataset.</em></p>
+                </div>
+
+                <div style="text-align: center; flex: 1;">
+                    <img src="../images/clustering/cardio_train_silo.png"
+                        alt="Silhouette Cardio Train">
+                    <p><em>Figure 6. Silhouette for Cardio Training Dataset.</em></p>
+                </div>
+
+            </div>
+
+            <p>
+                Framingham peaks at k = 2, then drastically drops; this pattern is seen in both the kidney and diabetes datasets, where just two clusters seem to obtain the highest silhouette score.
+                This is an unsurprising result for these datasets, as datasets such as Framingham are built from continuous risk factors (age, blood pressure, cholesterol, etc.). The continuous behavior of the data
+                measures an "overall cardiovascular risk" axis. So for this dataset and those alike, k = 2 captures the low-risk vs high-risk groups. Again, labels containing the diagnosis were removed, so this does well at capturing patterns between
+                those who do have the health condition and those who do not, but it is shown as risk rather than a definitive diagnosis.
+            </p>
+            <p>
+                The Cleveland and Cardio Training datasets represent a different organization of data. These datasets focus more on categorical / ordinal variables.
+                They look at chest-pain type, thalassemia (a group of blood disorders), cholesterol and glucose as ordinal levels, and other variables alike. Discrete data in biological settings creates combinations of normal and abnormal groups (i.e. high-cholesterol vs low-cholesterol).
+                This explains why a higher number of clusters may be preferred for these datasets, as it captures a variety of phenotype pockets that are not driven by one common axis.
+            </p>
+            <p>
+                Of course, an obvious pattern throughout applying both elbow and silhouette is the fact that the values found are fairly low (this is also true for the diabetes and kidney datasets).
+                As mentioned before, biological data is rarely able to be split into clean, distinct groups, so these k values lack concrete support of being the optimal choice for clustering. We can also see from the elbow method of all these groups that there is no clear 'elbow' in
+                the plot, but rather a more gradual decline. This reinforces the same conclusion: rather than forming a set of naturally separated groups, the data behaves as a continuous gradient, where each additional cluster reduces inertia by a similar amount instead of capturing a distinct
+                break in the data.
+            </p>
+
+            <h4>K-Means Clustering Results</h4>
+
+            <img src="../images/clustering/framingham_kmeans.png"
+                alt="K-Means Clusters Framingham">
+
+            <p>
+                Figure 7. Framingham K-means clustering visualization.
+            </p>
+
+            <img src="../images/clustering/train_kmeans.png"
+                alt="K-Means Clusters Cardio Train">
+
+            <p>
+                Figure 8. Cardio Training K-means clustering visualization.
+            </p>
+
+            <p>
+                K-means clustering was evaluated using a range of k values (1–7), and clusters were plotted against the cardiovascular Framingham dataset and Training dataset.
+                Framingham reveals an expected result at k = 2: there is a clear divide between high and low blood pressure, while BMI affects the divide less so. In contrast, the Cardio Training dataset shows splits in the data, as it is discrete.
+                The most interesting aspect compared with the Framingham data is how there is no visible split; data points along weight and blood pressure are not strictly divided.
+                This makes sense given our silhouette indicated this dataset requires a higher number of clusters to accurately represent the categorization of these data points. Across the several k values,
+                at k = 7 there is still a split within the Framingham data between high and low blood pressure. However, there is also more of a split in the Cardio Training set, again a heavier divide by blood pressure. Even so, data points are scattered, and it is likely that even 7 clusters
+                is not enough to perfectly capture this data. Because it is categorical and clustering more on discrete phenotypes, the actual number of optimal clusters is likely closer to the number of phenotypes being examined in the data.
+            </p>
+
+            <h4>Hierarchical Clustering Results</h4>
+
+            <img src="../images/clustering/marker_dend.png"
+                alt="Hierarchical Clustering Dendrogram">
+
+            <p>
+                Figure 9. Hierarchical clustering dendrogram using cosine similarity.
+            </p>
+
+            <p>
+                Hierarchical clustering was performed using a pivot table (conditions x biomarkers). It utilized cosine distance, representing each biomarker as a vector of condition
+                associations. Thus, cosine similarity measured which conditions a biomarker is linked to. The resulting tree is shown, where the y-axis is the cosine distance at which biomarkers merge. Low merges indicate closely related disease associations,
+                while high merges show unrelated ones. The overall structure shows that the vast majority of biomarkers merge at a high distance. This means that most biomarkers are associated with a distinct, condition-specific set of diseases. Meaningful similarity is
+                concentrated in a small number of tight, low-distance clusters (those below the threshold line). These are the biomarkers that are especially informative, as they indicate strong overlap between the three conditions of interest.
+            </p>
+
+            <p>
+                Cutting the tree at this threshold suggests approximately five main biomarker groups, which correspond to recognizable biochemical families (renal, steroid, amino-acid, carbohydrate, and lipid). This means hierarchical clustering points toward a richer k (around k = 5) than the k = 2 that k-means favored on the continuous patient data.
+            </p>
+
+        </section>
+
+        <section>
+            <h3>Comparison of Partitional and Hierarchical Clustering</h3>
+
+            <p>
+                Partitional clustering (k-means) was mainly applied to the continuous patient datasets, where the dominant structure is a single severity gradient. Because k-means must force the data into round groups, it tended to split this gradient roughly in half (best k = 2 for most datasets),
+                producing broad "lower-risk vs higher-risk" partitions with weak separation (low silhouette). It answered "where does the population divide?" but could not show finer internal structure. For discrete structured data,
+                k-means grouped biomarkers based on phenotypes, which did reveal how these datasets can combine into distinct subgroups. For these, the best k value was found to be fairly large (at least 7) to have meaningful separation.
+            </p>
+            <p>
+                Hierarchical clustering was applied to the sparse biomarker and condition data, where it revealed a nested structure that a flat partition would miss: a few tight, biologically coherent clusters (renal, steroid, amino-acid, carbohydrate, lipid) standing out against a large background
+                of condition-specific indicators. By not forcing a preset k, it exposed both the strong local groups and the fact that most biomarkers don't overlap, which is information k-means would have hidden by assigning everything to a cluster. However, both agreed that the cluster separation is overall weak,
+                with structure concentrated in a small number of distinct groups rather than evenly spread across the data.
+            </p>
+        </section>
+
+        <section>
+
+            <h3>(e) Conclusions</h3>
+
+            <p>
+                Across both methods, the central lesson seems to be that the data underlying diabetes and kidney / cardiovascular conditions does not separate into clean, distinct groups. Partitional clustering of the continuous datasets found that splitting the data into lower-risk and higher-risk created more distinct groupings.
+                In a clinical sense this is extremely useful, as it gives specific indicators where, if there are elevated or decreased levels, risk groups begin to differ. However, the silhouette method also failed to support strong, distinct groups, instead showing how these conditions exist on a spectrum of severity; certain levels of
+                one indicator do not automatically mean a patient will develop diabetes, CKD, or cardiovascular disease. Rather, it supports how many factors and biological systems play a significant role in the mechanisms that lead to the development of these diseases.
+            </p>
+
+            <p>
+                The clustering results are consistent with this progression in two ways. First, patient data formed a continuous severity gradient rather than discrete groups, as would
+                be expected if these conditions represent stages of a single underlying process rather than separate states. Second, hierarchical clustering of biomarkers isolated a renal group whose members double as established cardiovascular risk markers. This is a molecular overlap that represents a biochemical bridge through which kidney dysfunction may carry diabetic risk forward into cardiovascular disease.
+                However, clustering alone cannot prove a causal or directional sequence of conditions; rather, it reveals interesting patterns that support recurring indicators of disease development that lead to other health conditions.
+            </p>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <h2>Footer</h2>
+    </footer>
+
+</body>
 
 </html>

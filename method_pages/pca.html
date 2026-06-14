@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style.css">
+    <title>Maya's Site - PCA</title>
+
+    <style>
+        main section {
+            width: 90%;
+            float: none;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #c0d4f0;
+        }
+
+        .method-box {
+            background-color: #f4f8ff;
+            border-left: 4px solid #839dc7;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 12px 0;
+        }
+
+        table th {
+            background-color: #839dc7;
+            color: white;
+            padding: 8px 12px;
+            text-align: left;
+        }
+
+        table td {
+            border: 1px solid #ccc;
+            padding: 8px 12px;
+        }
+
+        table tr:nth-child(even) {
+            background-color: #eef3fb;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ccc;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>CSCI 5612 Project</h2>
+        <h4>Maya Williams</h4>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../intro.html">Intro</a></li>
+            <li><a href="../conclusions.html">Conclusions</a></li>
+            <li><a href="../dataprep.html">DataPrep_EDA</a></li>
+
+            <li class="dropdown">
+                <a href="#">Methods ▼</a>
+
+                <ul class="dropdown-content">
+                    <li><a href="clustering.html">Clustering</a></li>
+                    <li><a href="arm.html">ARM</a></li>
+                    <li><a href="naivebayes.html">NaiveBayes</a></li>
+                    <li><a href="dectrees.html">DecTrees</a></li>
+                    <li><a href="svms.html">SVMs</a></li>
+                    <li><a href="regression.html">Regression</a></li>
+                    <li><a href="nn.html">NN</a></li>
+                    <li><a href="pca.html">PCA</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <h2>Principal Component Analysis</h2>
+
+        <section>
+            <h3>(a) Overview</h3>
+
+            <p>
+                Principal Component Analysis (PCA) is a vital technique that reduces the number of variables while still capturing most of the variance within a dataset. The reduced number of variables are called principal components, which act as new axes along which the data exhibits the greatest variance. This effectively reduces the complexity of the data while still retaining the most important information. During PCA, the covariance matrix of the dataset is computed to measure the relationships between variables. PCA then calculates the eigenvectors and eigenvalues of this covariance matrix. The eigenvectors represent the directions of maximum variance in the data, while the eigenvalues indicate how much variance is captured along each eigenvector. A larger eigenvalue means that the corresponding eigenvector captures a greater amount of the dataset's information.
+            </p>
+            <p>
+                In datasets with many features, analysis can become overwhelmed with noise, redundancy, and irrelevant information. As the number of dimensions increases, data points become more sparse, making patterns more difficult to identify and interpret. In some machine learning models, a large number of features can also lead to overfitting, where the model learns noise rather than meaningful relationships within the data. Additionally, high-dimensional datasets often require greater computational resources for storage and processing.
+            </p>
+            <p>
+                For visual analysis specifically, it is challenging to plot and interpret data with many dimensions because humans can only directly visualize data in two or three dimensions. PCA addresses this issue by projecting the data into a lower-dimensional space while preserving as much variance as possible. This allows the data to be condensed into a much lower-dimensional representation, enabling simpler and more effective visualizations while still maintaining the key patterns and relationships present in the original dataset.
+            </p>
+
+            <h4>Overview Images</h4>
+
+            <img src="../images/pca_images/geeks_pca.webp"
+                alt="Dimensionality Reduction Techniques - GeeksforGeeks">
+
+            <p>
+                <em>Figure 1. "Dimensionality Reduction Techniques - GeeksforGeeks"</em>
+            </p>
+
+            <img src="../images/pca_images/stat_pca.png"
+                alt="Scree Plot for PCA Explained - Statistics Globe">
+
+            <p>
+                <em>Figure 2. "Scree Plot for PCA Explained - Statistics Globe"</em>
+            </p>
+
+        </section>
+
+        <section>
+
+            <h3>(b) Data Preparation</h3>
+
+            <p>
+                Data preparation was just as important for PCA as it was for the earlier methods. PCA can only work with data that is purely numerical, since the method relies on calculating a covariance matrix and finding the directions of greatest variance. Because of this, any categorical variables, such as the yes/no symptom responses in the diabetes and kidney datasets, had to be converted into numbers before PCA could be applied. Any identifier columns and diagnosis labels were also removed, since PCA is an unsupervised method and should describe the natural variation in the biomarker measurements themselves rather than be guided by an outcome we already know.
+            </p>
+            <p>
+                One of the most important steps was standardizing the data. PCA is very sensitive to the scale of each variable, so a biomarker measured in large units (such as glucose in the hundreds) would otherwise dominate the components simply because of its size, not because it carries more meaningful information. By standardizing every feature to have a mean of zero and a standard deviation of one, each biomarker is given a fair chance to contribute, and the resulting components reflect real biological variation rather than differences in measurement units. After cleaning, encoding, and standardizing each dataset, the data was in exactly the numeric, unlabeled, scaled format that PCA requires. This is also why the same prepared data could feed both the clustering and PCA analyses.
+            </p>
+
+            <h4>PCA Dataset</h4>
+
+            <section>
+    <h3>Cleaned Data Files Used for PCA</h3>
+<p><strong>Cardiovascular:</strong>
+    <a href="../ProjectData/data_cleaning/final_cleaned_data_files/cardio_train_cleaned.csv">cardio_train_cleaned.csv</a> |
+    <a href="../ProjectData/data_cleaning/final_cleaned_data_files/framingham_cleaned.csv">framingham_cleaned.csv</a> |
+    <a href="../ProjectData/data_cleaning/final_cleaned_data_files/cleveland_cleaned.csv">cleveland_cleaned.csv</a>
+</p>
+
+<p><strong>Diabetes:</strong>
+    <a href="../ProjectData/data_cleaning/final_cleaned_data_files/diabetes_cleaned.csv">diabetes_cleaned.csv</a> |
+    <a href="../ProjectData/data_cleaning/final_cleaned_data_files/nhanes_diabetes_cleaned.csv">nhanes_diabetes_cleaned.csv</a> |
+    <a href="../ProjectData/data_cleaning/final_cleaned_data_files/diabetes_uci_cleaned.csv">diabetes_uci_cleaned.csv</a>
+</p>
+
+<p><strong>Kidney:</strong>
+    <a href="../ProjectData/data_cleaning/final_cleaned_data_files/kidney_cleaned.csv">kidney_cleaned.csv</a> |
+    <a href="../ProjectData/data_cleaning/final_cleaned_data_files/nhanes_kidney_cleaned.csv">nhanes_kidney_cleaned.csv</a>
+</p>
+
+<p><strong>MarkerDB:</strong>
+    <a href="../ProjectData/data_cleaning/final_cleaned_data_files/cleaned_markerdb_api.csv">cleaned_markerdb_api.csv</a>
+</p>
+</section>
+
+            <p>
+                <a href="../images/pca_images/pca_sample.png">
+                </a>           
+
+            <p>
+                Sample of the cardio training dataset after data prepping for PCA
+
+            </p>
+
+        </section>
+
+        <section>
+
+            <h3>(c) Code</h3>
+
+            <p>
+                The code for PCA was written in Python using scikit-learn. For each dataset, the standardized biomarker data was passed into PCA, and the explained variance ratio, eigenvalues, and eigenvectors (loadings) were printed so I could see how much information each component captured and which biomarkers drove each axis. The data was then projected onto its first two principal components and plotted so the structure could be viewed in two dimensions.
+            </p>
+
+            <p>
+                Links to the complete code and notebooks are below.
+            </p>
+
+            <ul>
+                <li><a href="../notebooks/pca/diabetes_pca (2).html">Diabetes PCA Notebook</a></li>
+                <li><a href="../notebooks/pca/cardiovascular_pca (1).html">Cardiovascular PCA Notebook</a></li>
+                <li><a href="../notebooks/pca/kidney_pca (2).html">Kidney PCA Notebook</a></li>
+                <li><a href="../notebooks/pca/markerDB_pca (1).html">MarkerDB PCA Notebook</a></li>
+            </ul>
+
+        </section>
+
+        <section>
+
+            <h3>(d) Results</h3>
+
+            <p>
+                For each dataset, the first principal component (PC1) represents the single direction along which the biomarker data varies the most, and the second component (PC2) captures the next largest amount of variation that is independent of the first. The way to understand what each component actually means is to look at its loadings, which show how strongly each biomarker contributes to that axis. Biomarkers with large loadings of the same sign tend to rise and fall together, while biomarkers with opposite signs are being contrasted against one another. The table below shows how much of the total variance the first two components captured for each dataset.
+            </p>
+
+            <table>
+                <tr>
+                    <th>Dataset</th>
+                    <th>PC1 Variance</th>
+                    <th>PC2 Variance</th>
+                    <th>Cumulative (PC1 + PC2)</th>
+                </tr>
+                <tr><td>Diabetes – Pima</td><td>30%</td><td>19%</td><td>49%</td></tr>
+                <tr><td>Diabetes – UCI</td><td>21%</td><td>13%</td><td>34%</td></tr>
+                <tr><td>Cardiovascular – Cardio Train</td><td>20%</td><td>17%</td><td>37%</td></tr>
+                <tr><td>Cardiovascular – Cleveland</td><td>24%</td><td>12%</td><td>36%</td></tr>
+                <tr><td>Cardiovascular – Framingham</td><td>21%</td><td>12%</td><td>34%</td></tr>
+                <tr><td>Kidney – NHANES</td><td>27%</td><td>15%</td><td>41%</td></tr>
+                <tr><td>Kidney – UCI</td><td>29%</td><td>8%</td><td>37%</td></tr>
+                <tr><td>MarkerDB</td><td>8.9%</td><td>8.1%</td><td>17%</td></tr>
+            </table>
+
+            <h4>Diabetes Datasets</h4>
+
+            <img src="../images/pca_images/diabetes_pca.png"
+                alt="PCA projections for the diabetes datasets">
+
+            <p>
+                Figure 4. PCA projections of the diabetes datasets onto their first two principal components.
+            </p>
+
+            <p>
+                For the diabetes data, PC1 acts as an overall metabolic severity axis. The biomarkers most associated with diabetes, such as glucose, insulin, and BMI, all load strongly and in the same direction on PC1, which means that moving along this axis corresponds to moving from a healthier metabolic profile toward a more diabetic one. PC2 captured a different kind of variation, separating things like age and pregnancies from body composition rather than overall sugar levels. In the symptom-based UCI dataset, PC1 reflected the overall number of classic diabetes symptoms a person reported, while PC2 contrasted skin and appearance related symptoms against the more acute thirst and urination symptoms. This tells us that the strongest single pattern in the diabetes data really is the metabolic gradient we expected.
+            </p>
+
+            <h4>Cardiovascular Datasets</h4>
+
+            <img src="../images/pca_images/cardio_pca.png"
+                alt="PCA projections for the cardiovascular datasets">
+
+            <p>
+                Figure 5. PCA projections of the cardiovascular datasets onto their first two principal components.
+            </p>
+
+            <p>
+                The cardiovascular datasets were especially interesting because their main axis of variation depended on what each dataset measured. In the Framingham data, PC1 was clearly a blood pressure and hypertension axis, with systolic blood pressure, diastolic blood pressure, and a diagnosis of hypertension all loading heavily together, while PC2 was driven almost entirely by smoking behavior. In the Cleveland data, PC1 reflected cardiac stress, combining exercise-related measures like ST depression and exercise-induced angina with a lower maximum heart rate. In the Cardio Train data, however, PC1 leaned more toward body size and sex than disease, which showed that the strongest source of variation there was simply how people were built rather than their cardiovascular risk. This was a useful reminder that PCA reflects whatever a dataset measures most strongly, which is not always the outcome we care about.
+            </p>
+
+            <h4>Kidney Datasets</h4>
+
+            <img src="../images/pca_images/kidney_pca.png"
+                alt="PCA projections for the kidney datasets">
+
+            <p>
+                Figure 6. PCA projections of the kidney datasets onto their first two principal components.
+            </p>
+
+            <p>
+                The kidney data produced the cleanest and most relevant result for this project. In the NHANES kidney dataset, PC1 was almost entirely a kidney function axis, with the albumin-to-creatinine ratio, urine albumin, serum creatinine, and blood urea nitrogen all loading strongly on the same component. These are exactly the markers clinicians use to measure declining kidney function, so PC1 essentially traces the path from healthy kidneys toward chronic kidney disease. In the UCI kidney dataset, PC1 separated healthy blood measurements from disease-related markers like hypertension and diabetes, and notably PC2 was tied to blood sugar, which links kidney disease back to diabetes within the same dataset.
+            </p>
+
+            <h4>MarkerDB Biomarkers</h4>
+
+            <img src="../images/pca_images/markerdb_pca.png"
+                alt="PCA projection of the MarkerDB biomarkers">
+
+            <p>
+                Figure 7. PCA projection of the MarkerDB biomarkers based on their condition associations.
+            </p>
+
+            <p>
+                The MarkerDB data behaved very differently from the patient datasets. Here, the first two components only captured about 9% of the variance each, which is very low. This happened because each biomarker is linked to only a small handful of conditions, so the data is sparse and spread across many dimensions with no single dominant pattern. Most biomarkers clustered near the center of the plot, while a few distinctive ones, such as glucose, potassium, and several hormones, stretched out along the edges. Even though the variance captured was small, this still told us something meaningful, which is that biomarker overlap between conditions is the exception rather than the rule.
+            </p>
+
+        </section>
+
+        <section>
+
+            <h3>(e) Conclusions</h3>
+
+            <p>
+                PCA gave a clearer picture of what actually drives the variation in the biomarker data for diabetes, cardiovascular disease, and chronic kidney disease. One pattern that stood out across nearly every dataset was that the variance was spread thin, with the first component usually capturing only around twenty to thirty percent of the information and the MarkerDB data capturing far less. This reinforced something I also found during clustering, which is that these diseases do not come down to one single factor. Instead, they are shaped by many overlapping measurements, which fits the idea that conditions like diabetes, kidney disease, and cardiovascular disease exist along a continuous spectrum rather than as cleanly separated states.
+            </p>
+            <p>
+                The most important finding for the topic came from the kidney data, where the first principal component lined up almost perfectly with the core markers of kidney function. This matters because the same kidney markers that define this axis, such as creatinine and the albumin-to-creatinine ratio, are also tied to cardiovascular risk, and the kidney symptom data connected directly back to diabetes through blood sugar. Seeing kidney function emerge so clearly as a main axis of variation supports the idea that chronic kidney disease sits in the middle of the relationship between diabetes and cardiovascular disease. PCA also reinforced the clustering results, since the same axes that defined the components, like blood pressure, blood sugar, and kidney function, were the same patterns that separated the groups earlier. Overall, PCA helped confirm which biomarkers carry the most information and pointed toward kidney function as a meaningful link between the three conditions.
+            </p>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <h2>Footer</h2>
+    </footer>
+
+</body>
+
+</html>
