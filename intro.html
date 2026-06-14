@@ -1,8 +1,36 @@
+
+
+
 <!DOCTYPE html>
 <html lan="en">
     <head>
         <link rel="stylesheet" href="style.css">
         <title>Maya's Site</title>
+        <style>
+            .image-row {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.image-card {
+    flex: 1;
+    max-width: 500px;
+    text-align: center;
+}
+
+.image-card img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+        </style>
     </head>
 
         <body>
@@ -63,23 +91,41 @@
 </p>
 
 <h4>Research Questions (will likely add more throughout the project)</h4>
-<li> What is the relationship between Chronic Kidney Disease and Type 2 Diabetes? </li> <li> Which biomarkers indicate and support the bidirectional relationship between Type 2 Diabetes and Cardiovascular Disease? </li> <li> What are the major biomarkers associated with CKD, CVD, and Type 2 Diabetes as individual diseases? </li> <li> What do changes in these biomarkers reveal about disease development and progression? </li> <li> Can CKD-related biomarkers help identify individuals at increased risk of developing Cardiovascular Disease? </li> <li> To what extent does Chronic Kidney Disease act as an intermediate condition linking Type 2 Diabetes and Cardiovascular Disease? </li> <li> Does Chronic Kidney Disease represent a transitional stage between Type 2 Diabetes and Cardiovascular Disease? </li> <li> Which biomarkers provide the strongest predictive power for distinguishing among Type 2 Diabetes, CKD, and Cardiovascular Disease? </li> <li> Are there biomarker patterns that indicate progression from Type 2 Diabetes to CKD and subsequently to Cardiovascular Disease? </li> <li> Which kidney-function biomarkers show the strongest association with cardiovascular risk in diabetic patients? </li> <li> Can machine learning models identify combinations of biomarkers that are more informative than individual biomarkers alone? </li>
-            </main>
-<section>
-    <img src="images/pca_images/typ2_ckd.webp"
-         alt="Relationship between Type 2 Diabetes, CKD, and Heart Disease">
-    <p>
-        Figure 1. Chen, Xi, et al. “Type 2 Diabetes Mediated Heart Failure: Focus on Early Recognition and Clinical Strategies.” Frontiers in Endocrinology, vol. 16, 2025, article 1630686, https://doi.org/10.3389/fendo.2025.1630686.
-    </p>
-</section>
+<ul>
+<li> What is the relationship between Chronic Kidney Disease and Type 2 Diabetes? </li> 
+<li> Which biomarkers indicate and support the bidirectional relationship between Type 2 Diabetes and Cardiovascular Disease? </li> 
+<li> What are the major biomarkers associated with CKD, CVD, and Type 2 Diabetes as individual diseases? </li> 
+<li> What do changes in these biomarkers reveal about disease development and progression? </li>
+ <li> Can CKD-related biomarkers help identify individuals at increased risk of developing Cardiovascular Disease? </li>
+  <li> To what extent does Chronic Kidney Disease act as an intermediate condition linking Type 2 Diabetes and Cardiovascular Disease? </li> 
+  <li> Does Chronic Kidney Disease represent a transitional stage between Type 2 Diabetes and Cardiovascular Disease? </li>
+   <li> Which biomarkers provide the strongest predictive power for distinguishing among Type 2 Diabetes, CKD, and Cardiovascular Disease? </li>
+    <li> Are there biomarker patterns that indicate progression from Type 2 Diabetes to CKD and subsequently to Cardiovascular Disease? </li>
+     <li> Which kidney-function biomarkers show the strongest association with cardiovascular risk in diabetic patients? </li> 
+     <li> Can machine learning models identify combinations of biomarkers that are more informative than individual biomarkers alone? </li>
+</ul>
 
-<section>
-    <img src="images/placeholder_biomarkers.png"
-         alt="Key biomarkers associated with the diseases">
-    <p>
-        Figure 2. “What Is Biomarker Testing?” Prior Authorization Training, 14 Oct. 2022, https://www.priorauthtraining.org/what-is-biomarker-testing/
-    </p>
-</section>
+<div class="image-row">
+    <section class="image-card">
+        <img src="images/pca_images/typ2_ckd.webp"
+             alt="Relationship between Type 2 Diabetes, CKD, and Heart Disease">
+        <p>
+            Figure 1. Chen, Xi, et al. “Type 2 Diabetes Mediated Heart Failure:
+            Focus on Early Recognition and Clinical Strategies.”
+        </p>
+    </section>
+
+    <section class="image-card">
+        <img src="images/pca_images/biomarker_type.png"
+             alt="Key biomarkers associated with the diseases">
+        <p>
+            Figure 2. “What Is Biomarker Testing?” Prior Authorization Training,
+            14 Oct. 2022.
+        </p>
+    </section>
+</div>
+            </main>
+
 
             <footer>
                 <h2>Footer</h2>
