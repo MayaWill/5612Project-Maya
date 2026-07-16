@@ -74,11 +74,9 @@
 
                 <ul class="dropdown-content">
                     <li><a href="clustering.html">Clustering</a></li>
-                    <li><a href="arm.html">ARM</a></li>
                     <li><a href="naivebayes.html">NaiveBayes</a></li>
                     <li><a href="dectrees.html">DecTrees</a></li>
                     <li><a href="svms.html">SVMs</a></li>
-                    <li><a href="regression.html">Regression</a></li>
                     <li><a href="nn.html">NN</a></li>
                     <li><a href="pca.html">PCA</a></li>
                 </ul>
@@ -134,6 +132,12 @@
 
             <h4>PCA Dataset</h4>
 
+<a href="../images/pca_images/PCA_data_Sample.png" target="_blank">
+    <img src="../images/pca_images/PCA_data_Sample.png"
+         alt="PCA Dataset Sample"
+         style="width:600px; height:auto;">
+</a>
+
             <section>
     <h3>Cleaned Data Files Used for PCA</h3>
 <p><strong>Cardiovascular:</strong>
@@ -174,7 +178,7 @@
             <h3>(c) Code</h3>
 
             <p>
-                The code for PCA was written in Python using scikit-learn. For each dataset, the standardized biomarker data was passed into PCA, and the explained variance ratio, eigenvalues, and eigenvectors (loadings) were printed so I could see how much information each component captured and which biomarkers drove each axis. The data was then projected onto its first two principal components and plotted so the structure could be viewed in two dimensions.
+                The code for PCA was written in Python using scikit-learn. For each dataset, the standardized biomarker data was passed into PCA, and the explained variance ratio, eigenvalues, and eigenvectors (loadings) were printed so the amount of information each component captured was visible and which biomarkers drove each axis. The data was then projected onto its first two principal components and plotted so the structure could be viewed in two dimensions.
             </p>
 
             <p>
@@ -274,7 +278,7 @@
             <h3>(e) Conclusions</h3>
 
             <p>
-                PCA gave a clearer picture of what actually drives the variation in the biomarker data for diabetes, cardiovascular disease, and chronic kidney disease. One pattern that stood out across nearly every dataset was that the variance was spread thin, with the first component usually capturing only around twenty to thirty percent of the information and the MarkerDB data capturing far less. This reinforced something I also found during clustering, which is that these diseases do not come down to one single factor. Instead, they are shaped by many overlapping measurements, which fits the idea that conditions like diabetes, kidney disease, and cardiovascular disease exist along a continuous spectrum rather than as cleanly separated states.
+                PCA gave a clearer picture of what actually drives the variation in the biomarker data for diabetes, cardiovascular disease, and chronic kidney disease. One pattern that stood out across nearly every dataset was that the variance was spread thin, with the first component usually capturing only around twenty to thirty percent of the information and the MarkerDB data capturing far less. This reinforced something also found during clustering, which is that these diseases do not come down to one single factor. Instead, they are shaped by many overlapping measurements, which fits the idea that conditions like diabetes, kidney disease, and cardiovascular disease exist along a continuous spectrum rather than as cleanly separated states.
             </p>
             <p>
                 The most important finding for the topic came from the kidney data, where the first principal component lined up almost perfectly with the core markers of kidney function. This matters because the same kidney markers that define this axis, such as creatinine and the albumin-to-creatinine ratio, are also tied to cardiovascular risk, and the kidney symptom data connected directly back to diabetes through blood sugar. Seeing kidney function emerge so clearly as a main axis of variation supports the idea that chronic kidney disease sits in the middle of the relationship between diabetes and cardiovascular disease. PCA also reinforced the clustering results, since the same axes that defined the components, like blood pressure, blood sugar, and kidney function, were the same patterns that separated the groups earlier. Overall, PCA helped confirm which biomarkers carry the most information and pointed toward kidney function as a meaningful link between the three conditions.
@@ -285,7 +289,7 @@
     </main>
 
     <footer>
-        <h2>Footer</h2>
+            <p>CSCI 5612 — Maya Williams &nbsp;|&nbsp; Data sourced from Kaggle, UCI ML Repository, CDC NHANES, and MarkerDB API</p>
     </footer>
 
 </body>

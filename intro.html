@@ -53,11 +53,9 @@
 
                         <ul class="dropdown-content">
                             <li><a href="method_pages/clustering.html">Clustering</a></li>
-                            <li><a href="method_pages/arm.html">ARM</a></li>
                             <li><a href="method_pages/naivebayes.html">NaiveBayes</a></li>
                             <li><a href="method_pages/dectrees.html">DecTrees</a></li>
                             <li><a href="method_pages/svms.html">SVMs</a></li>
-                            <li><a href="method_pages/regression.html">Regression</a></li>
                             <li><a href="method_pages/nn.html">NN</a></li>
                             <li><a href="method_pages/pca.html">PCA</a></li>
                         </ul>
@@ -83,7 +81,7 @@
 </p>
     What makes this triad of conditions difficult to dissect is that they share many of the same upstream/ risk factors. 
     Several lifestyle and health factors like obesity, physical inactivity, poor diet, hypertension, and chornic inflammation all independently contribute to independently to the development of these conditions.
-    Recognizing shared and interacting risk factors provide significant value to biomarkers-based predicition, as blood and urine measurements can capture systemic disfunction before the disease has been diagnosed.
+    Recognizing shared and interacting risk factors provide significant value to biomarkers-based predicition, as blood and urine measurements can capture systemic dysfunction before the disease has been diagnosed.
     This means that habits and conditions that contribute to the development of one disease also influxes the risks of development towards another.
     Insulin resistance, a hallmark of Type 2 Diabetes, is a significant risk factor shared among all the conditions.
     Developed insulin resistance drives systemic changes in the cardio vascular system, specifically blood pressure, metabolism, and cardiac stress.
@@ -103,23 +101,81 @@
     Many biomarkers associated with Type 2 Diabetes and Cardiovascular Disease are also linked to Chronic Kidney Disease (CKD). The intention of this project, however, is to examine whether Chronic Kidney Disease may act as a mediator between Type 2 Diabetes and cardiovascular disease. Both Type 2 Diabetes and Heart Disease are established risk factors for the development of CKD, and kidney dysfunction itself is known to contribute to cardiovascular complications. This interconnected relationship suggests that CKD may represent a transitional stage in the progression from metabolic disease to cardiovascular disease. By examining biomarkers commonly associated with kidney function, this project seeks to determine whether changes in these indicators can reveal shared patterns of disease progression and provide evidence for CKD's role as a mediator between Type 2 Diabetes and Heart Disease.
 </p>
 
-<p>
 
+
+<h3>Q & A (Guiding Research Questions)</h3>
+<ul>
+<li><em>What is the relationship between Chronic Kidney Disease and Type 2 Diabetes? </em></li> 
+
+<p>
+    Metabolic dysfunction caused by long-term Type 2 Diabetes strains and weakens the kidneys overtime, worsening insulin resistance. 
+    The relationship then cycles, as both conditions worsen the other.
 </p>
 
-<h4>Research Questions (will likely add more throughout the project)</h4>
-<ul>
-<li> What is the relationship between Chronic Kidney Disease and Type 2 Diabetes? </li> 
-<li> Which biomarkers indicate and support the bidirectional relationship between Type 2 Diabetes and Cardiovascular Disease? </li> 
-<li> What are the major biomarkers associated with CKD, CVD, and Type 2 Diabetes as individual diseases? </li> 
-<li> What do changes in these biomarkers reveal about disease development and progression? </li>
- <li> Can CKD-related biomarkers help identify individuals at increased risk of developing Cardiovascular Disease? </li>
-  <li> To what extent does Chronic Kidney Disease act as an intermediate condition linking Type 2 Diabetes and Cardiovascular Disease? </li> 
-  <li> Does Chronic Kidney Disease represent a transitional stage between Type 2 Diabetes and Cardiovascular Disease? </li>
-   <li> Which biomarkers provide the strongest predictive power for distinguishing among Type 2 Diabetes, CKD, and Cardiovascular Disease? </li>
-    <li> Are there biomarker patterns that indicate progression from Type 2 Diabetes to CKD and subsequently to Cardiovascular Disease? </li>
-     <li> Which kidney-function biomarkers show the strongest association with cardiovascular risk in diabetic patients? </li> 
-     <li> Can machine learning models identify combinations of biomarkers that are more informative than individual biomarkers alone? </li>
+
+
+<li><em> Which biomarkers indicate and support the bidirectional relationship between Type 2 Diabetes and Cardiovascular Disease?</em> </li> 
+<p>
+    HbA1c appeared as a relevant feature in both the kidney and cardiovascular mediation trees, linking blood sugar dysregulation to both kidney damage and downstream cardiovascular risk. Lipid markers including LDL, total cholesterol, and triglycerides appeared across both the diabetes and cardiovascular datasets, reflecting the shared metabolic syndrome profile underlying both conditions. CRP, an inflammatory marker, was relevant to cardiovascular risk and is also elevated in diabetic patients.
+    This shows a shared inflammatory mechanism in both conditions. 
+</p>
+
+<li><em>What are the major biomarkers associated with CKD, CVD, and Type 2 Diabetes as individual conditions?</em></li>
+<p>
+    Kidney disease strongly indicated by serum creatine, BUN, serum albumin, urine abumin, and albumin-to-creatine ratio. These directly reflect declining filtration function. Diabetes is clinially defined by Hba1c and fasting glucose, with insulin levels reflecting the degree of insulin resistance.
+    Cardiovcular risk is strongly captured through LDL cholestrol, total cholestrol, average systolic blood pressure, and C-reactive protein (CRP). Elevated levels of the cardiovascular indicators reflect inflammation in the body, furthering cardiovascular stress.
+</p>
+
+<li><em> Which biomarkers provide the strongest predictive power for distinguishing among the three conditions?</em></li> 
+<p>
+    Kidney biomarkers had the strongest and most distinct seperation between healthy patients and those presenting CKD. From these, creatinine and albumin-to-creatinine ratio carried the strongest signal of CKD. HbA1c dominated diabetes classification, showing blood glucose over the past 2-3 months.
+    Cardiovascular risk was the least cleanly seperated, as no single biomarker acted as the primary driver for heart disease, more so a combination of markers.
+</p>
+
+<li><em> What do changes in these biomarkers reveal about disease development and progression? </em></li>
+<p>
+    Declining kidney filtration produces measurable and predictable changes in creatinine, BUN, albumin, and the albumin-to-creatinine ratio that accumulate in a consistent direction as disease worsens. These markers were the most linearly separable of any condition studied, suggesting that kidney dysfunction progresses through recognizable stages that leave clear signatures in biomarker space. The HbA1c continuous mediation analysis showed that as blood sugar control worsened from low to medium to high HbA1c, CKD prevalence rose substantially.
+    This is consistent with sustained hyperglycemia driving progressive kidney damage, later increasing cardiovascular risk.
+</p>
+
+ <li> <em>Can CKD-related biomarkers help identify individuals at increased risk of developing Cardiovascular Disease?</em> </li>
+<p>
+    CKD-related biomarkers have meaningful but partial predictive power. In the mediation experiement, kidney biomarkers did carry cardiovascular signal without direct access to cardiovascular features.
+    For patients with CKD alone, the cardiovascular risk was nearly identical to those with only diabetes (65.0% vs 65.7%), showing that CKD does carry individual risk to cardiovascular health without seperate comorbidities.
+</p>
+
+  <li><em> To what extent does Chronic Kidney Disease act as an intermediate condition linking Type 2 Diabetes and Cardiovascular Disease? </em></li> 
+<p>
+    CKD acts as a real but partial mediator. The neural mediation analysis found that approximately 9.5% of the total diabetes-to-cardiovascular relationship was statistically explained by the pathway through CKD. Diabetes raised CKD probability by 36.8 percentage points, and CKD independently raised cardiovascular risk by 4.4 percentage points after controlling for diabetes.
+    The remaining 90.5% of this relationship is due to other biological consequences of diabetes, including direct arterial damage and systemic inflammation. CKD is not a dominant part of the pathway, but it does play a meaningful role.
+</p>
+
+  <li> <em>Does Chronic Kidney Disease represent a transitional stage between Cardiovascular Disease and Type 2 Diabetes? </em></li>
+<p>
+    In the mediation experiment, cardiovascular risk raised CKD probability by 17.0 percentage points, and at-risk cardiovascular patients showed 15.7% higher diabetes probability than healthy patients. However the forward path from diabetes to CKD (36.8%) was more than twice as strong as the reverse, suggesting that while CKD may sit between cardiovascular disease and diabetes in a bidirectional sense, it plays a stronger transitional role in the forward direction.
+    The asymmetry between the two paths supports diabetes as a stronger upstream of kidney dysfunction, and the diabetes-to-cardiovascular disease is better supported by the data. CKD appears to function more as a transitional stage in the metabolic-to-cardiovascular direction.
+</p>
+
+    <li><em> Are there biomarker patterns that indicate progression from Type 2 Diabetes to CKD and subsequently to Cardiovascular Disease? </em></li>
+    <p>
+        Yes, and multiple methods identified consistent patterns. The mediation decision trees showed that serum albumin was the root split for predicting cardiovascular risk from kidney features, and HbA1c appeared at the second level on both branches. PCA identified kidney filtration markers as the dominant axis of variation in the kidney data, with that same axis connecting back to blood sugar variation in the UCI kidney dataset.
+        The prevalence analysis showed CKD rates increasing from 7.5% in patients with neither condition to 37.2% in patients with both diabetes and cardiovascular disease, consistent with CKD accumulating as a consequence of metabolic progression.
+    </p>
+
+     <li><em> Which kidney-function biomarkers show the strongest association with cardiovascular risk in diabetic patients?</em> </li> 
+
+     <p>
+        The albumin-to-creatinine ratio and urine albumin showed the strongest associations, appearing as dominant features in PCA and as early splits in the mediation decision trees.
+        when albumin leaks into the urine it indicates microvascular damage that also affects the cardiovascular system. Serum creatinine and BUN were strong classifiers of CKD itself but showed slightly less direct cardiovascular signal than the albumin-based markers.
+    </p>
+
+     <li> <em>Can machine learning models identify combinations of biomarkers that are more informative than individual biomarkers alone?</em> </li>
+     <p>
+        Particularly for cardiovascular risk is the identifying combinations more informative. The SVM required an RBF kernel to  capture nonlinear relationships between cardiovascular biomarkers. 
+        The decision tree analysis also shows that adding HbA1c alongside kidney markers improved cardiovascular risk recall from 67% to 81%, supporting that compounding diseases carry more information than individual ones.
+
+     </p>
+
 </ul>
 
 <div class="image-row">
@@ -145,7 +201,8 @@
 
 
             <footer>
-                <h2>Footer</h2>
+                            <p>CSCI 5612 — Maya Williams &nbsp;|&nbsp; Data sourced from Kaggle, UCI ML Repository, CDC NHANES, and MarkerDB API</p>
+
             </footer>
         </body>
 

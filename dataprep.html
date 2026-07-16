@@ -122,11 +122,9 @@
                     <a href="#">Methods ▼</a>
                     <ul class="dropdown-content">
                         <li><a href="method_pages/clustering.html">Clustering</a></li>
-                        <li><a href="method_pages/arm.html">ARM</a></li>
                         <li><a href="method_pages/naivebayes.html">NaiveBayes</a></li>
                         <li><a href="method_pages/dectrees.html">DecTrees</a></li>
                         <li><a href="method_pages/svms.html">SVMs</a></li>
-                        <li><a href="method_pages/regression.html">Regression</a></li>
                         <li><a href="method_pages/nn.html">NN</a></li>
                         <li><a href="method_pages/pca.html">PCA</a></li>
 
@@ -313,7 +311,7 @@
                         <td>Makes GET request to MarkerDB API, parses JSON response, filters for 3 target conditions, exports clean CSV.</td>
                     </tr>
                     <tr>
-                        <td><a href="notebooks/DataPrep_EDA_Visualizations-Copy1.html">DataPrep_EDA_Visualizations.ipynb</a></td>
+                        <td><a href="notebooks/DataPrep_EDA_Visualizations_fixed1.html">DataPrep_EDA_Visualizations.ipynb</a></td>
                         <td>Generates all visualizations comparing raw vs cleaned data across all datasets.</td>
                     </tr>
                 </table>
@@ -474,16 +472,45 @@
                     </div>
                 </div>
 
+                <div class="viz-grid">
+                    <div class="viz-item">
+                        <img src="images/data_cleaning/class_dist.png" alt="Class distribution">
+                        <p><strong>Fig 5.</strong>Class distribution across all data sets (at risk, vs risk group)</p>
+                    </div>
+                </div>
+                
+
                 <h4>Cardiovascular Disease Visualizations</h4>
                 <!-- Row 3 — placeholders for remaining visualizations -->
                 <div class="viz-grid">
                     <div class="viz-item">
                         <img src="images/data_cleaning/cardio_boxplot.png" alt="Glucose distribution">
-                        <p><strong>Fig 5.</strong>A boxplot comparing outliers from the general Cardiovcular Disease dataset, before and after cleaning.</p>
+                        <p><strong>Fig 6.</strong>A boxplot comparing outliers from the general Cardiovcular Disease dataset, before and after cleaning.</p>
                     </div>
                     <div class="viz-item">
                         <img src="images/data_cleaning/weight_age_cvd.png" alt="Blood pressure distribution">
-                        <p><strong>Fig 6.</strong>Plot showing relationship between age and weight and examining these with and without CVD. The values seen are generally expected, as increase in age and/or weight increases likelihood of CVD. </p>
+                        <p><strong>Fig 7.</strong>Plot showing relationship between age and weight and examining these with and without CVD. The values seen are generally expected, as increase in age and/or weight increases likelihood of CVD. </p>
+                    </div>
+                </div>
+
+                <h4>Kidney Visualizations</h4>
+                <div class="viz-grid">
+                    <div class="viz-item">
+                        <img src="images/data_cleaning/kidney_outlier.png" alt = "kidney outlier">
+                        <p><strong>Fig 8.</strong>Scatter plot from kidney data</p>
+                        <p>Left: Relationship between blood urea and serum creatine, Right: Relationship between hemoglobin and blood glucose</p>
+                    </div>
+                    <div class="viz-item">
+                        <img src="images/data_cleaning/kidney_boxplot.png" alt = "Kidney boxplot">
+                        <p><strong>Fig 9.</strong>Value of kidney biomarkers no CKD vs CKD</p>
+                    </div>
+                </div>
+
+                <h4>Diabetes Visualizations</h4>
+                <div class="viz-grid">
+                    <div class="viz-item">
+                        <img src="images/data_cleaning/diabetes_scatter.png" alt = "diabetes outlier">
+                        <p><strong>Fig 10.</strong>Scatter plot from diabetes data; relationship between insulin and blood glucose</p>
                     </div>
                 </div>
 
